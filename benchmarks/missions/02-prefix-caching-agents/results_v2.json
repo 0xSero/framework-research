@@ -1,0 +1,194 @@
+[
+  {
+    "ctx": 8192,
+    "no_cache": {
+      "turns": [
+        {
+          "wall_ms": 8592.1,
+          "prompt_ms": 6828.9,
+          "predicted_ms": 1321.4,
+          "cached_tokens": 2368,
+          "prompt_n": 2337,
+          "turn": 1
+        },
+        {
+          "wall_ms": 3328.8,
+          "prompt_ms": 1617.3,
+          "predicted_ms": 1294.8,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 2
+        },
+        {
+          "wall_ms": 3343.5,
+          "prompt_ms": 1620.6,
+          "predicted_ms": 1294.6,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 3
+        },
+        {
+          "wall_ms": 3602.2,
+          "prompt_ms": 1621.6,
+          "predicted_ms": 1294.4,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 4
+        },
+        {
+          "wall_ms": 3423.4,
+          "prompt_ms": 1619.4,
+          "predicted_ms": 1294.6,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 5
+        }
+      ],
+      "warm_prompt_ms_avg": 1619.7,
+      "warm_wall_ms_avg": 3424.5
+    },
+    "with_cache": {
+      "turns": [
+        {
+          "wall_ms": 8541.9,
+          "prompt_ms": 6805.3,
+          "predicted_ms": 1321.8,
+          "cached_tokens": 2368,
+          "prompt_n": 2337,
+          "turn": 1
+        },
+        {
+          "wall_ms": 3284.8,
+          "prompt_ms": 1612.9,
+          "predicted_ms": 1294.8,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 2
+        },
+        {
+          "wall_ms": 3315.0,
+          "prompt_ms": 1618.4,
+          "predicted_ms": 1292.5,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 3
+        },
+        {
+          "wall_ms": 3300.1,
+          "prompt_ms": 1618.6,
+          "predicted_ms": 1293.1,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 4
+        },
+        {
+          "wall_ms": 3300.9,
+          "prompt_ms": 1617.1,
+          "predicted_ms": 1292.9,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 5
+        }
+      ],
+      "warm_prompt_ms_avg": 1616.8,
+      "warm_wall_ms_avg": 3300.2
+    },
+    "prompt_ms_improvement_pct": 0.2
+  },
+  {
+    "ctx": 16384,
+    "no_cache": {
+      "turns": [
+        {
+          "wall_ms": 8552.5,
+          "prompt_ms": 6829.4,
+          "predicted_ms": 1322.2,
+          "cached_tokens": 2368,
+          "prompt_n": 2337,
+          "turn": 1
+        },
+        {
+          "wall_ms": 3338.1,
+          "prompt_ms": 1616.3,
+          "predicted_ms": 1298.1,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 2
+        },
+        {
+          "wall_ms": 3349.2,
+          "prompt_ms": 1620.4,
+          "predicted_ms": 1296.0,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 3
+        },
+        {
+          "wall_ms": 3352.3,
+          "prompt_ms": 1622.8,
+          "predicted_ms": 1294.6,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 4
+        },
+        {
+          "wall_ms": 3410.9,
+          "prompt_ms": 1622.8,
+          "predicted_ms": 1295.5,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 5
+        }
+      ],
+      "warm_prompt_ms_avg": 1620.6,
+      "warm_wall_ms_avg": 3362.6
+    },
+    "with_cache": {
+      "turns": [
+        {
+          "wall_ms": 8562.4,
+          "prompt_ms": 6836.4,
+          "predicted_ms": 1318.7,
+          "cached_tokens": 2368,
+          "prompt_n": 2337,
+          "turn": 1
+        },
+        {
+          "wall_ms": 3322.1,
+          "prompt_ms": 1617.4,
+          "predicted_ms": 1292.8,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 2
+        },
+        {
+          "wall_ms": 3306.8,
+          "prompt_ms": 1622.3,
+          "predicted_ms": 1292.5,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 3
+        },
+        {
+          "wall_ms": 3354.7,
+          "prompt_ms": 1623.4,
+          "predicted_ms": 1296.4,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 4
+        },
+        {
+          "wall_ms": 3374.1,
+          "prompt_ms": 1624.5,
+          "predicted_ms": 1293.0,
+          "cached_tokens": 2368,
+          "prompt_n": 516,
+          "turn": 5
+        }
+      ],
+      "warm_prompt_ms_avg": 1621.9,
+      "warm_wall_ms_avg": 3339.4
+    },
+    "prompt_ms_improvement_pct": -0.1
+  }
+]

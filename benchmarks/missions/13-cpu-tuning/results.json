@@ -1,0 +1,44 @@
+[
+  {
+    "threads": 8,
+    "prio": 0,
+    "pp": 290.99,
+    "tg": 24.3
+  },
+  {
+    "threads": 16,
+    "prio": 0,
+    "pp": 292.33,
+    "tg": 24.31
+  },
+  {
+    "threads": 24,
+    "prio": 0,
+    "pp": 295.25,
+    "tg": 24.36
+  },
+  {
+    "threads": 32,
+    "prio": 0,
+    "pp": 294.18,
+    "tg": 24.3
+  },
+  {
+    "threads": 16,
+    "prio": 2,
+    "pp": null,
+    "tg": null
+  },
+  {
+    "threads": 16,
+    "prio": 3,
+    "pp": null,
+    "tg": null
+  },
+  {
+    "threads": 24,
+    "prio": 3,
+    "pp": null,
+    "tg": null
+  }
+]

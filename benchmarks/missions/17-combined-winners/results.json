@@ -1,0 +1,20 @@
+[
+  {
+    "n_parallel": 1,
+    "s_pp_tps": 345.43,
+    "s_tg_tps": 29.02,
+    "s_total_tps": 108.59
+  },
+  {
+    "n_parallel": 4,
+    "s_pp_tps": 470.15,
+    "s_tg_tps": 52.87,
+    "s_total_tps": 182.33
+  },
+  {
+    "n_parallel": 8,
+    "s_pp_tps": 476.36,
+    "s_tg_tps": 60.54,
+    "s_total_tps": 200.69
+  }
+]

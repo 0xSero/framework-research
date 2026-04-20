@@ -1,0 +1,32 @@
+[
+  {
+    "variant": "baseline",
+    "draft_len": 0,
+    "tg_tps": 29.48,
+    "source": "Mission 11 Q4_K_M@4K q8_0 KV"
+  },
+  {
+    "draft_len": 3,
+    "tg_tps": 46.190863620546395,
+    "accept": 0.6705882352941176,
+    "n_drafted": 255,
+    "n_accept": 171,
+    "elapsed_s": 19.6
+  },
+  {
+    "draft_len": 5,
+    "tg_tps": 51.96508643417102,
+    "accept": 0.5,
+    "n_drafted": 370,
+    "n_accept": 185,
+    "elapsed_s": 22.0
+  },
+  {
+    "draft_len": 7,
+    "tg_tps": 53.50162091311621,
+    "accept": 0.5162907268170426,
+    "n_drafted": 399,
+    "n_accept": 206,
+    "elapsed_s": 21.4
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "n_parallel": 1,
+    "s_pp_tps": 276.71,
+    "s_tg_tps": 24.2,
+    "s_total_tps": 89.63,
+    "tail": [
+      "",
+      "main: n_kv_max = 4096, n_batch = 2048, n_ubatch = 512, flash_attn = 1, is_pp_shared = 0, is_tg_separate = 0, n_gpu_layers = 99, n_threads = 16, n_threads_batch = 16",
+      "",
+      "|    PP |     TG |    B |   N_KV |   T_PP s | S_PP t/s |   T_TG s | S_TG t/s |      T s |    S t/s |",
+      "|-------|--------|------|--------|----------|----------|----------|----------|----------|----------|",
+      "|   512 |    128 |    1 |    640 |    1.850 |   276.71 |    5.290 |    24.20 |    7.140 |    89.63 |",
+      "",
+      "llama_perf_context_print:        load time =   33200.21 ms",
+      "llama_perf_context_print: prompt eval time =    2236.00 ms /   528 tokens (    4.23 ms per token,   236.14 tokens per second)",
+      "llama_perf_context_print:        eval time =    5289.58 ms /   128 runs   (   41.32 ms per token,    24.20 tokens per second)",
+      "llama_perf_context_print:       total time =   40340.45 ms /   656 tokens",
+      "llama_perf_context_print:    graphs reused =        127"
+    ]
+  },
+  {
+    "n_parallel": 2,
+    "s_pp_tps": 288.41,
+    "s_tg_tps": 35.38,
+    "s_total_tps": 118.67,
+    "tail": [
+      "",
+      "main: n_kv_max = 4096, n_batch = 2048, n_ubatch = 512, flash_attn = 1, is_pp_shared = 0, is_tg_separate = 0, n_gpu_layers = 99, n_threads = 16, n_threads_batch = 16",
+      "",
+      "|    PP |     TG |    B |   N_KV |   T_PP s | S_PP t/s |   T_TG s | S_TG t/s |      T s |    S t/s |",
+      "|-------|--------|------|--------|----------|----------|----------|----------|----------|----------|",
+      "|   512 |    128 |    2 |   1280 |    3.550 |   288.41 |    7.236 |    35.38 |   10.786 |   118.67 |",
+      "",
+      "llama_perf_context_print:        load time =   33354.21 ms",
+      "llama_perf_context_print: prompt eval time =   11138.28 ms /  1296 tokens (    8.59 ms per token,   116.36 tokens per second)",
+      "llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)",
+      "llama_perf_context_print:       total time =   44140.46 ms /  1297 tokens",
+      "llama_perf_context_print:    graphs reused =        127"
+    ]
+  },
+  {
+    "n_parallel": 4,
+    "s_pp_tps": 290.27,
+    "s_tg_tps": 45.54,
+    "s_total_tps": 139.9,
+    "tail": [
+      "",
+      "main: n_kv_max = 4096, n_batch = 2048, n_ubatch = 512, flash_attn = 1, is_pp_shared = 0, is_tg_separate = 0, n_gpu_layers = 99, n_threads = 16, n_threads_batch = 16",
+      "",
+      "|    PP |     TG |    B |   N_KV |   T_PP s | S_PP t/s |   T_TG s | S_TG t/s |      T s |    S t/s |",
+      "|-------|--------|------|--------|----------|----------|----------|----------|----------|----------|",
+      "|   512 |    128 |    4 |   2560 |    7.056 |   290.27 |   11.243 |    45.54 |   18.298 |   139.90 |",
+      "",
+      "llama_perf_context_print:        load time =   32439.47 ms",
+      "llama_perf_context_print: prompt eval time =   18651.81 ms /  2576 tokens (    7.24 ms per token,   138.11 tokens per second)",
+      "llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)",
+      "llama_perf_context_print:       total time =   50737.93 ms /  2577 tokens",
+      "llama_perf_context_print:    graphs reused =        127"
+    ]
+  },
+  {
+    "n_parallel": 8,
+    "s_pp_tps": 307.14,
+    "s_tg_tps": 53.55,
+    "s_total_tps": 157.73,
+    "tail": [
+      "",
+      "main: n_kv_max = 6144, n_batch = 2048, n_ubatch = 512, flash_attn = 1, is_pp_shared = 0, is_tg_separate = 0, n_gpu_layers = 99, n_threads = 16, n_threads_batch = 16",
+      "",
+      "|    PP |     TG |    B |   N_KV |   T_PP s | S_PP t/s |   T_TG s | S_TG t/s |      T s |    S t/s |",
+      "|-------|--------|------|--------|----------|----------|----------|----------|----------|----------|",
+      "|   512 |    128 |    8 |   5120 |   13.336 |   307.14 |   19.124 |    53.55 |   32.460 |   157.73 |",
+      "",
+      "llama_perf_context_print:        load time =   34422.37 ms",
+      "llama_perf_context_print: prompt eval time =   32814.62 ms /  5136 tokens (    6.39 ms per token,   156.52 tokens per second)",
+      "llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)",
+      "llama_perf_context_print:       total time =   66882.23 ms /  5137 tokens",
+      "llama_perf_context_print:    graphs reused =        127"
+    ]
+  }
+]

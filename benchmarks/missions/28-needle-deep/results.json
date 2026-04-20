@@ -1,0 +1,182 @@
+[
+  {
+    "ctx": 16384,
+    "depth": 0.1,
+    "found_needle": true,
+    "elapsed_s": 30.74,
+    "tokens": 80,
+    "answer_preview": "The secret validation code is alpha-seven-delta-nine-mirror.\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validat",
+    "error": null
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.3,
+    "found_needle": true,
+    "elapsed_s": 31.2,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content about distrib",
+    "error": null
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 31.21,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content about distrib",
+    "error": null
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.7,
+    "found_needle": true,
+    "elapsed_s": 31.3,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content about distrib",
+    "error": null
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.9,
+    "found_needle": true,
+    "elapsed_s": 30.93,
+    "tokens": 80,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content about distrib",
+    "error": null
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.1,
+    "found_needle": false,
+    "elapsed_s": 67.08,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.3,
+    "found_needle": false,
+    "elapsed_s": 67.17,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 67.04,
+    "tokens": 80,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.7,
+    "found_needle": false,
+    "elapsed_s": 48.17,
+    "tokens": 80,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.9,
+    "found_needle": false,
+    "elapsed_s": 25.67,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.1,
+    "found_needle": false,
+    "elapsed_s": 161.16,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.3,
+    "found_needle": false,
+    "elapsed_s": 141.96,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 141.81,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.7,
+    "found_needle": true,
+    "elapsed_s": 116.69,
+    "tokens": 16,
+    "answer_preview": "</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror.",
+    "error": null
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.9,
+    "found_needle": true,
+    "elapsed_s": 61.33,
+    "tokens": 16,
+    "answer_preview": "</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror.",
+    "error": null
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.1,
+    "found_needle": false,
+    "elapsed_s": 418.89,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.3,
+    "found_needle": false,
+    "elapsed_s": 370.85,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 370.68,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.7,
+    "found_needle": false,
+    "elapsed_s": 308.35,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.9,
+    "found_needle": false,
+    "elapsed_s": 187.55,
+    "tokens": 80,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a mas",
+    "error": null
+  }
+]

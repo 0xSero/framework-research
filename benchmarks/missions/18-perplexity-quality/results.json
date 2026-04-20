@@ -1,0 +1,71 @@
+[
+  {
+    "ck": "f16",
+    "cv": "f16",
+    "ppl": 5.8134,
+    "errors": [],
+    "tail": [
+      "perplexity: tokenizing the input ..",
+      "perplexity: tokenization took 302.479 ms",
+      "perplexity: calculating perplexity over 50 chunks, n_ctx=2048, batch_size=2048, n_seq=1",
+      "perplexity: 6.18 seconds per pass - ETA 5.15 minutes",
+      "[1]4.7312,[2]5.7795,[3]6.0729,[4]6.3722,[5]6.6409,[6]5.7684,[7]5.3257,[8]5.3257,[9]5.6381,[10]5.7353,[11]5.8047,[12]6.0368,[13]5.9904,[14]6.0570,[15]6.0810,[16]6.2250,[17]6.2664,[18]6.3419,[19]6.3016,[20]6.0385,[21]5.9213,[22]5.9352,[23]5.8565,[24]5.6933,[25]5.6974,[26]5.6764,[27]5.8358,[28]5.9302,[29]5.9226,[30]5.9011,[31]5.8446,[32]5.7881,[33]5.7613,[34]5.7656,[35]5.7787,[36]5.7837,[37]5.7144,[38]5.6639,[39]5.6132,[40]5.5458,[41]5.5199,[42]5.5743,[43]5.6876,[44]5.7895,[45]5.7348,[46]5.7309,[47]5.7719,[48]5.7922,[49]5.8332,[50]5.8134,",
+      "Final estimate: PPL = 5.8134 +/- 0.06023",
+      "",
+      "llama_perf_context_print:        load time =   19579.55 ms",
+      "llama_perf_context_print: prompt eval time =  298389.92 ms / 102400 tokens (    2.91 ms per token,   343.18 tokens per second)",
+      "llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)",
+      "llama_perf_context_print:       total time =  307864.23 ms / 102401 tokens",
+      "llama_perf_context_print:    graphs reused =          0",
+      "llama_memory_breakdown_print: | memory breakdown [MiB]                      |  total    free     self   model   context   compute    unaccounted |",
+      "llama_memory_breakdown_print: |   - Vulkan0 (8060S Graphics (RADV GFX1151)) | 123392 = 63785 + (57696 = 56986 +     197 +     513) +        1909 |",
+      "llama_memory_breakdown_print: |   - Host                                    |                     425 =   409 +       0 +      16                |"
+    ]
+  },
+  {
+    "ck": "q8_0",
+    "cv": "q8_0",
+    "ppl": 5.8168,
+    "errors": [],
+    "tail": [
+      "perplexity: tokenizing the input ..",
+      "perplexity: tokenization took 307.432 ms",
+      "perplexity: calculating perplexity over 50 chunks, n_ctx=2048, batch_size=2048, n_seq=1",
+      "perplexity: 6.24 seconds per pass - ETA 5.20 minutes",
+      "[1]4.7060,[2]5.7535,[3]6.0590,[4]6.3539,[5]6.6315,[6]5.7665,[7]5.3259,[8]5.3271,[9]5.6400,[10]5.7370,[11]5.8049,[12]6.0363,[13]5.9900,[14]6.0582,[15]6.0836,[16]6.2264,[17]6.2679,[18]6.3438,[19]6.3029,[20]6.0400,[21]5.9235,[22]5.9373,[23]5.8588,[24]5.6957,[25]5.7000,[26]5.6799,[27]5.8397,[28]5.9331,[29]5.9266,[30]5.9066,[31]5.8490,[32]5.7916,[33]5.7637,[34]5.7678,[35]5.7796,[36]5.7843,[37]5.7151,[38]5.6647,[39]5.6148,[40]5.5479,[41]5.5223,[42]5.5762,[43]5.6896,[44]5.7918,[45]5.7379,[46]5.7340,[47]5.7750,[48]5.7952,[49]5.8364,[50]5.8168,",
+      "Final estimate: PPL = 5.8168 +/- 0.06026",
+      "",
+      "llama_perf_context_print:        load time =   13049.93 ms",
+      "llama_perf_context_print: prompt eval time =  302435.96 ms / 102400 tokens (    2.95 ms per token,   338.58 tokens per second)",
+      "llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)",
+      "llama_perf_context_print:       total time =  312001.42 ms / 102401 tokens",
+      "llama_perf_context_print:    graphs reused =          0",
+      "llama_memory_breakdown_print: | memory breakdown [MiB]                      |  total    free     self   model   context   compute    unaccounted |",
+      "llama_memory_breakdown_print: |   - Vulkan0 (8060S Graphics (RADV GFX1151)) | 123392 = 63854 + (57674 = 56986 +     174 +     513) +        1863 |",
+      "llama_memory_breakdown_print: |   - Host                                    |                     425 =   409 +       0 +      16                |"
+    ]
+  },
+  {
+    "ck": "q4_0",
+    "cv": "q4_0",
+    "ppl": 5.833,
+    "errors": [],
+    "tail": [
+      "perplexity: tokenizing the input ..",
+      "perplexity: tokenization took 347.643 ms",
+      "perplexity: calculating perplexity over 50 chunks, n_ctx=2048, batch_size=2048, n_seq=1",
+      "perplexity: 6.23 seconds per pass - ETA 5.18 minutes",
+      "[1]4.7214,[2]5.7556,[3]6.0504,[4]6.3399,[5]6.6180,[6]5.7514,[7]5.3186,[8]5.3198,[9]5.6325,[10]5.7355,[11]5.8023,[12]6.0360,[13]5.9944,[14]6.0615,[15]6.0869,[16]6.2350,[17]6.2767,[18]6.3546,[19]6.3199,[20]6.0577,[21]5.9413,[22]5.9531,[23]5.8759,[24]5.7119,[25]5.7164,[26]5.6952,[27]5.8560,[28]5.9497,[29]5.9423,[30]5.9229,[31]5.8660,[32]5.8097,[33]5.7815,[34]5.7853,[35]5.7976,[36]5.8032,[37]5.7337,[38]5.6841,[39]5.6342,[40]5.5670,[41]5.5412,[42]5.5958,[43]5.7083,[44]5.8105,[45]5.7553,[46]5.7511,[47]5.7922,[48]5.8125,[49]5.8530,[50]5.8330,",
+      "Final estimate: PPL = 5.8330 +/- 0.06048",
+      "",
+      "llama_perf_context_print:        load time =   11109.96 ms",
+      "llama_perf_context_print: prompt eval time =  301473.60 ms / 102400 tokens (    2.94 ms per token,   339.66 tokens per second)",
+      "llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)",
+      "llama_perf_context_print:       total time =  311070.27 ms / 102401 tokens",
+      "llama_perf_context_print:    graphs reused =          0",
+      "llama_memory_breakdown_print: | memory breakdown [MiB]                      |  total    free     self   model   context   compute    unaccounted |",
+      "llama_memory_breakdown_print: |   - Vulkan0 (8060S Graphics (RADV GFX1151)) | 123392 = 63875 + (57662 = 56986 +     162 +     513) +        1853 |",
+      "llama_memory_breakdown_print: |   - Host                                    |                     425 =   409 +       0 +      16                |"
+    ]
+  }
+]

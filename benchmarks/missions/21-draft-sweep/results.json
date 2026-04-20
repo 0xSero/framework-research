@@ -1,0 +1,42 @@
+[
+  {
+    "label": "gpu_draft_min0",
+    "ngld": 99,
+    "draft_min": 0,
+    "tg_tps": 52.63297994622966,
+    "accept": 0.564179104477612,
+    "n_drafted": 335,
+    "n_accept": 189,
+    "elapsed_s": 24.0
+  },
+  {
+    "label": "gpu_draft_min1",
+    "ngld": 99,
+    "draft_min": 1,
+    "tg_tps": 51.087723604676135,
+    "accept": 0.828,
+    "n_drafted": 250,
+    "n_accept": 207,
+    "elapsed_s": 19.2
+  },
+  {
+    "label": "gpu_draft_min3",
+    "ngld": 99,
+    "draft_min": 3,
+    "tg_tps": 51.80259360803201,
+    "accept": 0.609375,
+    "n_drafted": 320,
+    "n_accept": 195,
+    "elapsed_s": 20.7
+  },
+  {
+    "label": "cpu_draft_min0",
+    "ngld": 0,
+    "draft_min": 0,
+    "tg_tps": 39.566023198184126,
+    "accept": 0.4425,
+    "n_drafted": 400,
+    "n_accept": 177,
+    "elapsed_s": 25.5
+  }
+]

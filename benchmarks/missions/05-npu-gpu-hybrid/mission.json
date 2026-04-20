@@ -1,0 +1,11 @@
+{
+  "id": "05-npu-gpu-hybrid",
+  "name": "NPU + GPU Hybrid Speculative Decoding",
+  "hypothesis": "The XDNA 2 NPU can run the 0.8B draft model fast enough to offload it from the GPU, freeing GPU cycles for batched verification of the 122B target.",
+  "draft_model": "~/.local/share/models/gguf/gemma-3-1b-it-Q4_K_M.gguf",
+  "target_model": "~/.local/share/models/gguf/gemma-3-4b-it-Q4_K_M.gguf",
+  "success_criteria": {
+    "pipeline_runs_without_crash": true,
+    "hybrid_throughput_exceeds_gpu_only": false
+  }
+}

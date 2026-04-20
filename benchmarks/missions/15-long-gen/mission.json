@@ -1,0 +1,8 @@
+{
+  "id": "15-long-gen",
+  "name": "Long-Generation tg Scaling on Qwen3.5-122B",
+  "hypothesis": "tg128 over-represents real-world decode throughput. As KV grows during generation, tg should degrade due to FLASH_ATTN_EXT scaling. Map tg at 128, 512, 2048, 8192 generated tokens.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+  "n_predict": [128, 512, 2048, 8192],
+  "context_prefill": 512
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "variant": "baseline",
+    "draft_len": 0,
+    "tg_tps": 24.3,
+    "accept": null,
+    "source": "Mission 11 Q6_K@4K q8_0 KV"
+  },
+  {
+    "variant": "speculative",
+    "draft_len": 3,
+    "tg_tps": 41.24907549609471,
+    "accept": 0.5942028985507246,
+    "n_drafted": 276,
+    "n_accept": 164,
+    "elapsed_s": 49.3
+  },
+  {
+    "variant": "speculative",
+    "draft_len": 5,
+    "tg_tps": 48.17896031534621,
+    "accept": 0.4641025641025641,
+    "n_drafted": 390,
+    "n_accept": 181,
+    "elapsed_s": 50.9
+  },
+  {
+    "variant": "speculative",
+    "draft_len": 7,
+    "tg_tps": 47.69377669364112,
+    "accept": 0.5012531328320802,
+    "n_drafted": 399,
+    "n_accept": 200,
+    "elapsed_s": 48.1
+  },
+  {
+    "variant": "speculative",
+    "draft_len": 10,
+    "tg_tps": 32.15148219550781,
+    "accept": 0.47333333333333333,
+    "n_drafted": 450,
+    "n_accept": 213,
+    "elapsed_s": 52.8
+  },
+  {
+    "variant": "speculative",
+    "draft_len": 16,
+    "tg_tps": 47.476736399164416,
+    "accept": 0.5745192307692307,
+    "n_drafted": 416,
+    "n_accept": 239,
+    "elapsed_s": 46.2
+  }
+]

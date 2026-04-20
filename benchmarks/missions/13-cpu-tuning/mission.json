@@ -1,0 +1,9 @@
+{
+  "id": "13-cpu-tuning",
+  "name": "CPU Thread / Priority / Polling Tuning for Qwen3.5-122B",
+  "hypothesis": "16C/32T Zen 5 with UMA means CPU involvement in MoE expert routing and kernel launch matters more than on dedicated-VRAM GPUs. The default --threads=16 may not be optimal.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+  "thread_counts": [8, 12, 16, 24, 32],
+  "prio_levels": [0, 2, 3],
+  "context": 8192
+}

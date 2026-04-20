@@ -1,0 +1,24 @@
+[
+  {
+    "ctx": 262144,
+    "pp": null,
+    "tg": null,
+    "elapsed_s": 2623.6,
+    "result": "TIMEOUT (server timeout=2621s)",
+    "note": "Did not complete prefill. Extrapolating Mission 01 pp=145-150 at 131K, a 262K prefill needs ~29 min at that rate; the 44 min elapsed suggests sub-linear pp scaling (i.e. FLASH_ATTN_EXT quadratic term dominating)."
+  },
+  {
+    "ctx": 524288,
+    "pp": null,
+    "tg": null,
+    "result": "SKIPPED (killed)",
+    "note": "Killed after 7:34 to free remote GPU for subsequent missions. Would have taken >80 min to reach its own timeout."
+  },
+  {
+    "ctx": 1048576,
+    "pp": null,
+    "tg": null,
+    "result": "SKIPPED",
+    "note": "Inferred infeasible given 262K timeout."
+  }
+]

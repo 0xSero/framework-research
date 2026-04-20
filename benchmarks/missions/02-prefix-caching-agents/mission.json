@@ -1,0 +1,13 @@
+{
+  "id": "02-prefix-caching-agents",
+  "name": "Prefix Caching for Agentic Workloads",
+  "hypothesis": "On a 128GB system, caching a 4K system prompt across 20 agent turns reduces TTFT by >50% and total wall-clock time by >30%.",
+  "model": "~/.local/share/models/gguf/gemma-3-4b-it-Q4_K_M.gguf",
+  "turns": 20,
+  "system_prompt_tokens": 4096,
+  "contexts": [8192, 16384, 32768],
+  "success_criteria": {
+    "ttft_improvement_pct": 50,
+    "total_time_improvement_pct": 30
+  }
+}

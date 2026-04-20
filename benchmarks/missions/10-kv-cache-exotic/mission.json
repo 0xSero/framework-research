@@ -1,0 +1,9 @@
+{
+  "id": "10-kv-cache-exotic",
+  "name": "Exotic KV Cache Types on Qwen3.5-122B",
+  "hypothesis": "Beyond f16/q8_0/q4_0, types iq4_nl, q5_0, q5_1, and q4_1 have dramatically different Vulkan kernel characteristics. Mapping them on 122B reveals a hidden sweet spot.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+  "kv_types": ["iq4_nl", "q5_0", "q5_1", "q4_1"],
+  "contexts": [4096, 32768, 131072],
+  "notes": "Small-model probe: q5_1 pp=497 vs q5_0 pp=108 — 4.6x asymmetry despite 1 extra bit. iq4_nl pp=232, tg=24 clean. Likely the NL kernel is faster than the block-scale kernel for reads."
+}

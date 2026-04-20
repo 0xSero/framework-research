@@ -1,0 +1,122 @@
+[
+  {
+    "model": "Q4_K_M",
+    "ctx": 32768,
+    "depth": 0.1,
+    "found_needle": false,
+    "elapsed_s": 69.29,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "model": "Q4_K_M",
+    "ctx": 32768,
+    "depth": 0.3,
+    "found_needle": false,
+    "elapsed_s": 69.44,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "model": "Q4_K_M",
+    "ctx": 32768,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 69.47,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "model": "Q4_K_M",
+    "ctx": 32768,
+    "depth": 0.7,
+    "found_needle": false,
+    "elapsed_s": 49.66,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "model": "Q4_K_M",
+    "ctx": 32768,
+    "depth": 0.9,
+    "found_needle": true,
+    "elapsed_s": 26.27,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "model": "Q6_K",
+    "ctx": 32768,
+    "depth": 0.1,
+    "found_needle": false,
+    "elapsed_s": 75.6,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "model": "Q6_K",
+    "ctx": 32768,
+    "depth": 0.3,
+    "found_needle": true,
+    "elapsed_s": 75.71,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "model": "Q6_K",
+    "ctx": 32768,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 76.54,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "model": "Q6_K",
+    "ctx": 32768,
+    "depth": 0.7,
+    "found_needle": false,
+    "elapsed_s": 54.53,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "model": "Q6_K",
+    "ctx": 32768,
+    "depth": 0.9,
+    "found_needle": false,
+    "elapsed_s": 28.67,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "model": "Q8_0",
+    "ctx": 32768,
+    "depth": 0.1,
+    "found_needle": true,
+    "elapsed_s": 75.2,
+    "answer_preview": "The secret validation code is alpha-seven-delta-nine-mirror.\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A large block of "
+  },
+  {
+    "model": "Q8_0",
+    "ctx": 32768,
+    "depth": 0.3,
+    "found_needle": false,
+    "elapsed_s": 75.57,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "model": "Q8_0",
+    "ctx": 32768,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 75.37,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "model": "Q8_0",
+    "ctx": 32768,
+    "depth": 0.7,
+    "found_needle": false,
+    "elapsed_s": 53.99,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "model": "Q8_0",
+    "ctx": 32768,
+    "depth": 0.9,
+    "found_needle": false,
+    "elapsed_s": 29.05,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  }
+]

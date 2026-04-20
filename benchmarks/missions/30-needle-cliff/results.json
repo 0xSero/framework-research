@@ -1,0 +1,149 @@
+[
+  {
+    "ctx": 18000,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 34.17,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 18000,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 34.16,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 18000,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 34.45,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 20000,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 38.79,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "ctx": 20000,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 38.1,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 20000,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 37.84,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 22000,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 42.1,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "ctx": 22000,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 42.47,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 22000,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 42.35,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 24000,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 46.45,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 24000,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 27.9,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 24000,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 27.78,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "ctx": 26000,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 50.93,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 26000,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 33.28,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 26000,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 32.38,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 28000,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 55.18,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "ctx": 28000,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 36.77,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "ctx": 28000,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 36.34,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for the \"secret validation code\" based on the provided text. The t"
+  },
+  {
+    "ctx": 30000,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 60.02,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content abo"
+  },
+  {
+    "ctx": 30000,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 41.54,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  },
+  {
+    "ctx": 30000,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 41.05,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The tex"
+  }
+]

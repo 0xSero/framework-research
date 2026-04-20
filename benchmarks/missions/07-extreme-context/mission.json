@@ -1,0 +1,12 @@
+{
+  "id": "07-extreme-context",
+  "name": "Extreme Context Frontier",
+  "hypothesis": "With q4_0/q4_0 KV on 128GB UMA we can push the 122B MoE past 131K — targeting 262K, 524K, and 1M contexts — and identify whether FLASH_ATTN_EXT scaling or plain memory is the hard wall.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+  "combos": [["q4_0", "q4_0"]],
+  "contexts": [262144, 524288, 1048576],
+  "success_criteria": {
+    "max_ctx_reached": 524288,
+    "pp_floor_t_s": 40
+  }
+}

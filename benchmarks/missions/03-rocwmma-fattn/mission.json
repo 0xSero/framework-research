@@ -1,0 +1,11 @@
+{
+  "id": "03-rocwmma-fattn",
+  "name": "rocWMMA Flash Attention Tuning for gfx1151",
+  "hypothesis": "lhl's rocWMMA FATTN patch, once rebased, delivers +30-100% decode improvement at long context on RDNA 3.5, and the gain increases with KV length.",
+  "model": "~/.local/share/models/gguf/gemma-3-4b-it-Q4_K_M.gguf",
+  "contexts": [8192, 32768, 131072],
+  "success_criteria": {
+    "decode_improvement_pct": 20,
+    "prefill_regression_pct": 5
+  }
+}

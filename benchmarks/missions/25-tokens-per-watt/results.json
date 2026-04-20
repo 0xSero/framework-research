@@ -1,0 +1,38 @@
+[
+  {
+    "label": "A_default_ub512",
+    "pp": 339.42,
+    "tg": 29.49,
+    "avg_watts": 0.0,
+    "peak_watts": 0.0,
+    "tg_per_watt": null,
+    "n_power_samples": 15
+  },
+  {
+    "label": "B_ub2048",
+    "pp": 411.16,
+    "tg": 29.46,
+    "avg_watts": 0.0,
+    "peak_watts": 0.0,
+    "tg_per_watt": null,
+    "n_power_samples": 14
+  },
+  {
+    "label": "C_q4_0_kv",
+    "pp": 410.02,
+    "tg": 29.47,
+    "avg_watts": 0.0,
+    "peak_watts": 0.0,
+    "tg_per_watt": null,
+    "n_power_samples": 14
+  },
+  {
+    "label": "D_batched_npl8",
+    "pp": null,
+    "tg": null,
+    "avg_watts": 0.0,
+    "peak_watts": 0.0,
+    "tg_per_watt": null,
+    "n_power_samples": 14
+  }
+]

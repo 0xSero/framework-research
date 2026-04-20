@@ -1,0 +1,107 @@
+[
+  {
+    "label": "16k_mid",
+    "ctx": 16384,
+    "depth_frac": 0.5,
+    "found_needle": true,
+    "elapsed_s": 30.53,
+    "tokens": 80,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 11623,
+      "prompt_ms": 27614.338,
+      "prompt_per_token_ms": 2.3758356706530157,
+      "prompt_per_second": 420.9045315516888,
+      "predicted_n": 80,
+      "predicted_ms": 2755.281,
+      "predicted_per_token_ms": 34.4410125,
+      "predicted_per_second": 29.03515104267042
+    },
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content about distributed systems (CAP theorem, Raft, Paxos, ",
+    "error": null
+  },
+  {
+    "label": "32k_mid",
+    "ctx": 32768,
+    "depth_frac": 0.5,
+    "found_needle": false,
+    "elapsed_s": 66.4,
+    "tokens": 80,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 23491,
+      "prompt_ms": 63122.104,
+      "prompt_per_token_ms": 2.687076071687029,
+      "prompt_per_second": 372.1517267548623,
+      "predicted_n": 80,
+      "predicted_ms": 2821.036,
+      "predicted_per_token_ms": 35.262950000000004,
+      "predicted_per_second": 28.35837614266532
+    },
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a massive repetition of a paragraph about dis",
+    "error": null
+  },
+  {
+    "label": "65k_mid",
+    "ctx": 65536,
+    "depth_frac": 0.5,
+    "found_needle": false,
+    "elapsed_s": 140.33,
+    "tokens": 80,
+    "timings": {
+      "cache_n": 8192,
+      "prompt_n": 38897,
+      "prompt_ms": 136886.259,
+      "prompt_per_token_ms": 3.5191983700542457,
+      "prompt_per_second": 284.15562149302366,
+      "predicted_n": 80,
+      "predicted_ms": 2932.343,
+      "predicted_per_token_ms": 36.654287499999995,
+      "predicted_per_second": 27.28193802703163
+    },
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based on the provided text. The text is a massive repetition of a paragraph about dis",
+    "error": null
+  },
+  {
+    "label": "32k_early",
+    "ctx": 32768,
+    "depth_frac": 0.1,
+    "found_needle": true,
+    "elapsed_s": 66.45,
+    "tokens": 80,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 23491,
+      "prompt_ms": 63122.191,
+      "prompt_per_token_ms": 2.6870797752330677,
+      "prompt_per_second": 372.1512138258952,
+      "predicted_n": 80,
+      "predicted_ms": 2820.122,
+      "predicted_per_token_ms": 35.251525,
+      "predicted_per_second": 28.36756707688533
+    },
+    "answer_preview": "The secret validation code is alpha-seven-delta-nine-mirror.\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A very long text containing repeated paragraphs about distributed s",
+    "error": null
+  },
+  {
+    "label": "32k_late",
+    "ctx": 32768,
+    "depth_frac": 0.9,
+    "found_needle": true,
+    "elapsed_s": 47.62,
+    "tokens": 80,
+    "timings": {
+      "cache_n": 8192,
+      "prompt_n": 15299,
+      "prompt_ms": 44389.487,
+      "prompt_per_token_ms": 2.901463298254788,
+      "prompt_per_second": 344.6536789217681,
+      "predicted_n": 80,
+      "predicted_ms": 2820.829,
+      "predicted_per_token_ms": 35.2603625,
+      "predicted_per_second": 28.36045715638913
+    },
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appears to be repetitive content about distributed systems (CAP theorem, Raft, Paxos, ",
+    "error": null
+  }
+]

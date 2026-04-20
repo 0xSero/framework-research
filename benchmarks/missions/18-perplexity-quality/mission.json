@@ -1,0 +1,8 @@
+{
+  "id": "18-perplexity-quality",
+  "name": "Perplexity / quality sanity check on Qwen3.5-122B quants",
+  "hypothesis": "Mission 11 shows Q4_K_M wins on speed. Mission 01 shows q4_0/q4_0 KV wins on memory. But neither measured quality. Wikitext perplexity on Q4_K_M with f16/q8_0/q4_0 KV will quantify what we trade for memory savings.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q4_K_M.gguf",
+  "kv_types": [["f16", "f16"], ["q8_0", "q8_0"], ["q4_0", "q4_0"]],
+  "dataset": "wikitext-2-raw-v1 test split (first ~100 chunks)"
+}

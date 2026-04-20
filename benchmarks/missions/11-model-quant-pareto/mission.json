@@ -1,0 +1,11 @@
+{
+  "id": "11-model-quant-pareto",
+  "name": "Qwen3.5-122B Quant Pareto (Q4_K_M vs Q6_K vs Q8_0)",
+  "hypothesis": "On 128GB UMA with Vulkan, Q4_K_M should be prefill-fastest, Q6_K the tg-speed/quality sweet spot, and Q8_0 bandwidth-limited. Mapping all three across contexts exposes where each wins.",
+  "models": [
+    "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q4_K_M.gguf",
+    "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+    "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q8_0.gguf"
+  ],
+  "contexts": [512, 4096, 16384, 32768, 65536, 131072]
+}

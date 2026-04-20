@@ -1,0 +1,8 @@
+{
+  "id": "09-parallel-throughput",
+  "name": "Parallel/Batched Inference Throughput on Qwen3.5-122B",
+  "hypothesis": "Under concurrent requests, aggregate t/s on the 122B MoE should exceed single-stream because MoE sparsity leaves GPU underutilized at batch=1. Target: aggregate tg ≥ 2x single-stream at concurrency=4.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+  "parallel_slots": [1, 2, 4, 8],
+  "ctx_per_slot": 4096
+}

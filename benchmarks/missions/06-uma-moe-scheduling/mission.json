@@ -1,0 +1,11 @@
+{
+  "id": "06-uma-moe-scheduling",
+  "name": "UMA-Native MoE Expert Scheduling",
+  "hypothesis": "Because the Halo has unified memory, CPU threads can prefetch the next layer's active experts into GPU-visible GTT while the GPU computes the current layer, eliminating the MUL_MAT_ID dispatch bottleneck.",
+  "model": "~/.local/share/models/gguf/gemma-3-4b-it-Q4_K_M.gguf",
+  "contexts": [512, 8192, 32768],
+  "success_criteria": {
+    "prefill_improvement_pct": 15,
+    "or_profiling_report_identifies_bottleneck": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "04-mixed-quant-sensitivity",
+  "name": "Per-Layer Mixed Quantization Sensitivity",
+  "hypothesis": "A non-uniform quantization (attention at q8_0, FFN at q4_K_M, experts at q5_K_M) can match uniform Q6_K quality while using less memory and decoding faster.",
+  "model": "~/.local/share/models/gguf/gemma-3-4b-it-Q4_K_M.gguf",
+  "recipes": [
+    {"name": "attn_q8_0_ffn_q4_K_M", "layers": {"attention": "q8_0", "ffn": "q4_K_M"}},
+    {"name": "attn_q8_0_ffn_q5_K_M", "layers": {"attention": "q8_0", "ffn": "q5_K_M"}},
+    {"name": "attn_f16_ffn_q4_K_M", "layers": {"attention": "f16", "ffn": "q4_K_M"}}
+  ],
+  "success_criteria": {
+    "beat_q6_k_on_quality_and_speed": true,
+    "or_match_q6_k_with_speedup_pct": 10
+  }
+}

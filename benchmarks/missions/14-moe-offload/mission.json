@@ -1,0 +1,8 @@
+{
+  "id": "14-moe-offload",
+  "name": "MoE Expert CPU Offload Sweep on Qwen3.5-122B",
+  "hypothesis": "On 128GB UMA, moving some MoE expert layers to CPU (-ncmoe N) could free GPU scheduling for the active path. With 8-of-205 expert sparsity, most of the model is dead weight at any timestep.",
+  "model": "~/.local/share/models/gguf/Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+  "ncmoe": [0, 8, 16, 32, 48, 64],
+  "context": 8192
+}

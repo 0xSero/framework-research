@@ -1,0 +1,159 @@
+{
+  "model": "Qwen3.5-122B-A10B-REAP-20-Q4_K_M",
+  "n_problems": 30,
+  "n_pass": 7,
+  "pass_at_1": 0.233,
+  "elapsed_s": 239.5,
+  "results": [
+    {
+      "task_id": "HumanEval/0",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature and docstring.\n    *   Task: Complete the function body.\n    *   Constraints: Output ONLY the functio"
+    },
+    {
+      "task_id": "HumanEval/1",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def separate_paren_groups(paren_string: str) -> List[str]:` and a docstring.\n    *   Task: Complete "
+    },
+    {
+      "task_id": "HumanEval/2",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def truncate_number(number: float) -> float:` and a docstring.\n    *   Task: Complete the function b"
+    },
+    {
+      "task_id": "HumanEval/3",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def below_zero(operations: List[int]) -> bool:` and a docstring.\n    *   Task: Complete the function "
+    },
+    {
+      "task_id": "HumanEval/4",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Complete the Python function body.\n    *   Function Signature: `def mean_absolute_deviation(numbers: List[float]) -> float:`\n    *"
+    },
+    {
+      "task_id": "HumanEval/5",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature and docstring for `intersperse`.\n    *   Task: Complete the function body.\n    *   Constraints: Outpu"
+    },
+    {
+      "task_id": "HumanEval/6",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `parse_nested_parens(paren_string: str) -> List[int]` and a docstring with examples.\n    *   Task: Co"
+    },
+    {
+      "task_id": "HumanEval/7",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature and docstring.\n    *   Task: Complete the function body.\n    *   Constraints: Output ONLY the functio"
+    },
+    {
+      "task_id": "HumanEval/8",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def sum_product(numbers: List[int]) -> Tuple[int, int]:` and a docstring.\n    *   Task: Complete the"
+    },
+    {
+      "task_id": "HumanEval/9",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def rolling_max(numbers: List[int]) -> List[int]:` and a docstring with an example.\n    *   Task: Co"
+    },
+    {
+      "task_id": "HumanEval/10",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    for i in range(len(string)):\n        if is_palindrome(string[i:]):\n            return string + string[:i][::-1]\n    return string + string[:-1][::-1]"
+    },
+    {
+      "task_id": "HumanEval/11",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Complete the Python function body.\n    *   Function Signature: `def string_xor(a: str, b: str) -> str:`\n    *   Input: Two strings"
+    },
+    {
+      "task_id": "HumanEval/12",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    if not strings:\n        return None\n    longest_str = strings[0]\n    for s in strings[1:]:\n        if len(s) > len(longest_str):\n            longest_str = s\n    return longest_s"
+    },
+    {
+      "task_id": "HumanEval/13",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    while b:\n        a, b = b, a % b\n    return a"
+    },
+    {
+      "task_id": "HumanEval/14",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def all_prefixes(string: str) -> List[str]:` and a docstring with an example.\n    *   Task: Complete"
+    },
+    {
+      "task_id": "HumanEval/15",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    return ' '.join(str(i) for i in range(n + 1))"
+    },
+    {
+      "task_id": "HumanEval/16",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    return len(set(string.lower()))"
+    },
+    {
+      "task_id": "HumanEval/17",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def parse_music(music_string: str) -> List[int]:` and a docstring describing the task.\n    *   Task:"
+    },
+    {
+      "task_id": "HumanEval/18",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    if not substring:\n        return 0\n    count = 0\n    start = 0\n    while True:\n        idx = string.find(substring, start)\n        if idx == -1:\n            break\n        count "
+    },
+    {
+      "task_id": "HumanEval/19",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    mapping = {\n        'zero': 0, 'one': 1, 'two': 2, 'three': 3, 'four': 4,\n        'five': 5, 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9\n    }\n    words = numbers.split()\n    so"
+    },
+    {
+      "task_id": "HumanEval/20",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `find_closest_elements` and a docstring with examples.\n    *   Task: Complete the function body.\n    "
+    },
+    {
+      "task_id": "HumanEval/21",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature `def rescale_to_unit(numbers: List[float]) -> List[float]:` and a docstring.\n    *   Task: Complete t"
+    },
+    {
+      "task_id": "HumanEval/22",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]"
+    },
+    {
+      "task_id": "HumanEval/23",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Complete the Python function body.\n    *   Function Signature: `def strlen(string: str) -> int:`\n    *   Docstring provided: Descr"
+    },
+    {
+      "task_id": "HumanEval/24",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    for i in range(n // 2, 0, -1):\n        if n % i == 0:\n            return i"
+    },
+    {
+      "task_id": "HumanEval/25",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    factors = []\n    d = 2\n    while d * d <= n:\n        while n % d == 0:\n            factors.append(d)\n            n //= d\n        d += 1\n    if n > 1:\n        factors.append(n)\n "
+    },
+    {
+      "task_id": "HumanEval/26",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    counts = {}\n    for num in numbers:\n        counts[num] = counts.get(num, 0) + 1\n    return [num for num in numbers if counts[num] == 1]"
+    },
+    {
+      "task_id": "HumanEval/27",
+      "passed": false,
+      "content_preview": "<think>\n\n</think>\n\n    return string.swapcase()"
+    },
+    {
+      "task_id": "HumanEval/28",
+      "passed": false,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature and docstring for `concatenate`.\n    *   Task: Complete the function body.\n    *   Constraints: Outpu"
+    },
+    {
+      "task_id": "HumanEval/29",
+      "passed": true,
+      "content_preview": "<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A Python function signature and docstring.\n    *   Task: Complete the function body.\n    *   Constraints: Output ONLY the functio"
+    }
+  ]
+}

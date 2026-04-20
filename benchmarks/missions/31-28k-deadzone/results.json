@@ -1,0 +1,162 @@
+[
+  {
+    "ctx": 27000,
+    "seed": 0,
+    "needle_key": "alpha-seven-delta-nine-mirror",
+    "found_needle": false,
+    "elapsed_s": 55.97,
+    "answer_preview": "</think>\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" base"
+  },
+  {
+    "ctx": 27000,
+    "seed": 1,
+    "needle_key": "bravo-four-tango-six-paper",
+    "found_needle": false,
+    "elapsed_s": 33.51,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 27000,
+    "seed": 2,
+    "needle_key": "charlie-two-sierra-eight-glass",
+    "found_needle": true,
+    "elapsed_s": 36.25,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appear"
+  },
+  {
+    "ctx": 27000,
+    "seed": 3,
+    "needle_key": "delta-nine-omega-three-river",
+    "found_needle": false,
+    "elapsed_s": 33.48,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 27500,
+    "seed": 0,
+    "needle_key": "alpha-seven-delta-nine-mirror",
+    "found_needle": false,
+    "elapsed_s": 37.05,
+    "answer_preview": "ANSWER:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a \"secret validation code\" based"
+  },
+  {
+    "ctx": 27500,
+    "seed": 1,
+    "needle_key": "bravo-four-tango-six-paper",
+    "found_needle": false,
+    "elapsed_s": 34.28,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 27500,
+    "seed": 2,
+    "needle_key": "charlie-two-sierra-eight-glass",
+    "found_needle": true,
+    "elapsed_s": 37.04,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user has provided a large block of text that appear"
+  },
+  {
+    "ctx": 27500,
+    "seed": 3,
+    "needle_key": "delta-nine-omega-three-river",
+    "found_needle": true,
+    "elapsed_s": 34.79,
+    "answer_preview": "</think>\n\nThe magic token noted is **delta-nine-omega-three-river**."
+  },
+  {
+    "ctx": 28000,
+    "seed": 0,
+    "needle_key": "alpha-seven-delta-nine-mirror",
+    "found_needle": true,
+    "elapsed_s": 35.92,
+    "answer_preview": "</think>\n\nalpha-seven-delta-nine-mirror"
+  },
+  {
+    "ctx": 28000,
+    "seed": 1,
+    "needle_key": "bravo-four-tango-six-paper",
+    "found_needle": false,
+    "elapsed_s": 35.34,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 28000,
+    "seed": 2,
+    "needle_key": "charlie-two-sierra-eight-glass",
+    "found_needle": true,
+    "elapsed_s": 38.19,
+    "answer_preview": "Remember: the passphrase equals charlie-two-sierra-eight-glass.\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**"
+  },
+  {
+    "ctx": 28000,
+    "seed": 3,
+    "needle_key": "delta-nine-omega-three-river",
+    "found_needle": false,
+    "elapsed_s": 35.37,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 28500,
+    "seed": 0,
+    "needle_key": "alpha-seven-delta-nine-mirror",
+    "found_needle": true,
+    "elapsed_s": 37.04,
+    "answer_preview": "</think>\n\nalpha-seven-delta-nine-mirror"
+  },
+  {
+    "ctx": 28500,
+    "seed": 1,
+    "needle_key": "bravo-four-tango-six-paper",
+    "found_needle": false,
+    "elapsed_s": 36.9,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 28500,
+    "seed": 2,
+    "needle_key": "charlie-two-sierra-eight-glass",
+    "found_needle": true,
+    "elapsed_s": 39.79,
+    "answer_preview": "Remember: the passphrase equals charlie-two-sierra-eight-glass.\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**"
+  },
+  {
+    "ctx": 28500,
+    "seed": 3,
+    "needle_key": "delta-nine-omega-three-river",
+    "found_needle": false,
+    "elapsed_s": 36.98,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 29000,
+    "seed": 0,
+    "needle_key": "alpha-seven-delta-nine-mirror",
+    "found_needle": true,
+    "elapsed_s": 38.7,
+    "answer_preview": "</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 29000,
+    "seed": 1,
+    "needle_key": "bravo-four-tango-six-paper",
+    "found_needle": false,
+    "elapsed_s": 38.2,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 29000,
+    "seed": 2,
+    "needle_key": "charlie-two-sierra-eight-glass",
+    "found_needle": false,
+    "elapsed_s": 41.01,
+    "answer_preview": "Answer:\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:** The user is asking for a specific passphrase mentioned "
+  },
+  {
+    "ctx": 29000,
+    "seed": 3,
+    "needle_key": "delta-nine-omega-three-river",
+    "found_needle": true,
+    "elapsed_s": 38.77,
+    "answer_preview": "</think>\n\nThe magic token noted is **delta-nine-omega-three-river**."
+  }
+]

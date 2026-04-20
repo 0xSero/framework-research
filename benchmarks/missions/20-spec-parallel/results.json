@@ -1,0 +1,32 @@
+[
+  {
+    "npl": 1,
+    "draft_max": 5,
+    "wall_s": 3.11,
+    "total_tokens": 128,
+    "aggregate_tg_tps": 41.13,
+    "per_stream": [
+      {
+        "elapsed_s": 3.11,
+        "tokens": 128,
+        "tg_tps": 51.223870323570786
+      }
+    ]
+  },
+  {
+    "npl": 2,
+    "draft_max": 5,
+    "wall_s": 0.03,
+    "total_tokens": 0,
+    "aggregate_tg_tps": 0.0,
+    "per_stream": []
+  },
+  {
+    "npl": 4,
+    "draft_max": 5,
+    "wall_s": 0.01,
+    "total_tokens": 0,
+    "aggregate_tg_tps": 0.0,
+    "per_stream": []
+  }
+]

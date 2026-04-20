@@ -1,0 +1,52 @@
+{
+  "id": "34-rpc-hetero-inference",
+  "title": "Heterogeneous RPC Inference (RTX 3090 + Strix Halo)",
+  "phase": "exploratory",
+  "status": "in_progress",
+  "branch": "autoresearch/phase1",
+  "hypothesis": "Splitting Qwen3.5-122B-A10B-REAP-20 Q6_K across the RTX 3090 (24 GB, ~936 GB/s VRAM) and the Strix Halo Framework Desktop (128 GB unified, ~215 GB/s) via llama.cpp RPC can outperform single-node Halo decode by >=15% at 8K context, because the 3090 holds the hot attention layers at CUDA bandwidth while the Halo absorbs the long tail of MoE experts in its huge GTT pool.",
+  "scope": {
+    "model": "Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf",
+    "model_size_bytes": 81326605120,
+    "model_size_gb": 75.7,
+    "gpus_in_use": [
+      {"node": "halo", "device": "Vulkan0 (Radeon 8060S, gfx1151, 128 GB UMA)"},
+      {"node": "<cuda-peer>", "device": "CUDA1 (RTX 3090, 24 GB GDDR6X)"}
+    ],
+    "gpus_explicitly_excluded": [
+      "<cuda-peer> CUDA0,2,3,4 ((redacted sibling CUDA device) x4) — pinned out via CUDA_VISIBLE_DEVICES=1"
+    ],
+    "rationale_for_exclusion": "Per user direction: study the hard case of mixing a mid-tier NVIDIA card with the Strix Halo, not the trivial case where a single Blackwell holds the whole model."
+  },
+  "topology": {
+    "halo": {
+      "description": "Strix Halo Framework Desktop (see AGENTS.md 'Access' section for addresses and keys)",
+      "llama_cpp": "~/.local/opt/llama.cpp/current (b8779, Vulkan + RPC)",
+      "link": "Wi-Fi — ethernet interface present but DOWN"
+    },
+    "<cuda-peer>": {
+      "description": "Companion box with RTX 3090 (see AGENTS.md 'Companion Box' section)",
+      "llama_cpp": "~/.local/opt/llama.cpp/current (b8779, CUDA 12.8 + RPC, sm_86, FA off)",
+      "gpu_pin": "CUDA_VISIBLE_DEVICES=4 (isolates the RTX 3090 from the 4x Blackwell cards on the same host)"
+    }
+  },
+  "method": [
+    "Build llama.cpp with -DGGML_CUDA=ON -DGGML_RPC=ON -DCMAKE_CUDA_ARCHITECTURES=86 on the 3090 box.",
+    "Stage Qwen3.5-122B-A10B-REAP-20-Q6_K.gguf on whichever node drives inference (transfer once if needed).",
+    "Sweep: which node is driver (host) x which node is RPC worker x layers-on-3090 in {8,16,20,24,28} x ctx in {4096,16384}.",
+    "Measure: TTFT, prefill tok/s, decode tok/s, per-node VRAM/GTT, LAN bandwidth consumed during a run.",
+    "Compare against single-node Halo Q6_K baseline already in results.jsonl."
+  ],
+  "success_criteria": [
+    "Heterogeneous RPC run beats single-node Halo decode tok/s on Q6_K by >=15% at 8K ctx, OR",
+    "Profiling clearly identifies the Wi-Fi link as the dominant bottleneck with measured bandwidth numbers, motivating an ethernet/10GbE upgrade before the next attempt."
+  ],
+  "primary_metric": "decode_tok_per_sec_at_8k_ctx",
+  "primary_unit": "tokens_per_second",
+  "artifacts": {
+    "harness": "run.py",
+    "analysis": "analyze.py",
+    "raw_log": "results_raw.jsonl",
+    "summary": "FINDINGS.md"
+  }
+}
