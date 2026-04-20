@@ -1,0 +1,32 @@
+[
+  {
+    "npl": 1,
+    "s_pp_tps": 1159.04,
+    "s_tg_tps": 62.61,
+    "s_total_tps": 257.42
+  },
+  {
+    "npl": 2,
+    "s_pp_tps": 1273.2,
+    "s_tg_tps": 101.38,
+    "s_total_tps": 384.45
+  },
+  {
+    "npl": 4,
+    "s_pp_tps": 1315.49,
+    "s_tg_tps": 143.61,
+    "s_total_tps": 499.8
+  },
+  {
+    "npl": 8,
+    "s_pp_tps": 1370.07,
+    "s_tg_tps": 184.42,
+    "s_total_tps": 599.38
+  },
+  {
+    "npl": 16,
+    "s_pp_tps": 1378.73,
+    "s_tg_tps": 164.61,
+    "s_total_tps": 557.04
+  }
+]

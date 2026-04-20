@@ -1,0 +1,86 @@
+[
+  {
+    "ctx": 32768,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 24.65,
+    "answer_preview": "The secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 24.86,
+    "answer_preview": "ANSWER:\n\n<think>\n\n</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 17.59,
+    "answer_preview": "What is the secret validation code?\n\n<think>\n\n</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 38.86,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 44.79,
+    "answer_preview": "\n\n<think>\n\n</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 44.72,
+    "answer_preview": "\n\n<think>\n\n</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 111.56,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.5,
+    "found_needle": true,
+    "elapsed_s": 130.66,
+    "answer_preview": "\n\n</think>\n\nThe secret validation code is alpha-seven-delta-nine-mirror."
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 117.13,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 262144,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 363.79,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 262144,
+    "depth": 0.5,
+    "found_needle": false,
+    "elapsed_s": 425.17,
+    "answer_preview": ""
+  },
+  {
+    "ctx": 262144,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 365.42,
+    "answer_preview": "\n\nIn distributed systems, the CAP theorem states a tradeoff between Consistency, Availability, and Partition tolerance; most practical designs pick tw"
+  }
+]

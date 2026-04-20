@@ -1,0 +1,689 @@
+[
+  {
+    "instance_id": "filecoin-project__specs-actors-592",
+    "language": "go",
+    "repo": "filecoin-project/specs-actors",
+    "prompt_chars": 2300,
+    "elapsed_s": 6.94,
+    "has_diff": true,
+    "file_recall": 1.0,
+    "line_recall": 0.333,
+    "files_gold": [
+      "market_actor.go"
+    ],
+    "files_gen": [
+      "market_actor.go"
+    ],
+    "preview": "```diff\ndiff --git a/actors/builtin/market/market_actor.go b/actors/builtin/market/market_actor.go\nindex 1a3b8c5..f8e9d2a 100644\n--- a/actors/builtin/market/market_actor.go\n+++ b/actors/builtin/market/market_actor.go\n@@ -1,6 +1,7 @@\n package market\n \n import (\n+\t\"github.com/filecoin-project/go-state"
+  },
+  {
+    "instance_id": "palantir__policy-bot-302",
+    "language": "go",
+    "repo": "palantir/policy-bot",
+    "prompt_chars": 8362,
+    "elapsed_s": 35.05,
+    "has_diff": true,
+    "file_recall": 0.4,
+    "line_recall": 0.151,
+    "files_gold": [
+      "base.go",
+      "context.go",
+      "details.go",
+      "file.go",
+      "github.go"
+    ],
+    "files_gen": [
+      "file.go",
+      "github.go"
+    ],
+    "preview": "```diff\ndiff --git a/policy/predicate/file.go b/policy/predicate/file.go\nindex 1a2b3c4..5d6e7f8 100644\n--- a/policy/predicate/file.go\n+++ b/policy/predicate/file.go\n@@ -1,6 +1,7 @@\n package predicate\n \n import (\n+\t\"fmt\"\n \t\"strconv\"\n \t\"strings\"\n \n@@ -10,7 +11,7 @@ import (\n )\n \n // ComparisonExpr rep"
+  },
+  {
+    "instance_id": "helm__helm-7201",
+    "language": "go",
+    "repo": "helm/helm",
+    "prompt_chars": 7604,
+    "elapsed_s": 34.93,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.087,
+    "files_gold": [
+      "package.go",
+      "save.go"
+    ],
+    "files_gen": [
+      "dependencies.go"
+    ],
+    "preview": "```diff\ndiff --git a/pkg/chartutil/dependencies.go b/pkg/chartutil/dependencies.go\nindex 0c0e0e0e0..e0e0e0e0e 100644\n--- a/pkg/chartutil/dependencies.go\n+++ b/pkg/chartutil/dependencies.go\n@@ -1,6 +1,7 @@\n package chartutil\n \n import (\n+\t\"bytes\"\n \t\"fmt\"\n \t\"io/ioutil\"\n \t\"os\"\n@@ -10,6 +11,7 @@ import "
+  },
+  {
+    "instance_id": "editorconfig-checker__editorconfig-checker-360",
+    "language": "go",
+    "repo": "editorconfig-checker/editorconfig-checker",
+    "prompt_chars": 19351,
+    "elapsed_s": 38.07,
+    "has_diff": true,
+    "file_recall": 0.14285714285714285,
+    "line_recall": 0.077,
+    "files_gold": [
+      ".gitignore",
+      "README.md",
+      "error.go",
+      "go.mod",
+      "go.sum",
+      "logger.go",
+      "main.go"
+    ],
+    "files_gen": [
+      "error.go"
+    ],
+    "preview": "```diff\ndiff --git a/pkg/error/error.go b/pkg/error/error.go\nindex 1a2b3c4..5d6e7f8 100644\n--- a/pkg/error/error.go\n+++ b/pkg/error/error.go\n@@ -1,6 +1,7 @@\n package error\n \n import (\n+\t\"errors\"\n \t\"fmt\"\n \t\"os\"\n \t\"sort\"\n@@ -10,6 +11,7 @@ import (\n \t\"github.com/editorconfig-checker/editorconfig-checke"
+  },
+  {
+    "instance_id": "d5__tengo-221",
+    "language": "go",
+    "repo": "d5/tengo",
+    "prompt_chars": 5485,
+    "elapsed_s": 34.25,
+    "has_diff": true,
+    "file_recall": 0.14285714285714285,
+    "line_recall": 0.114,
+    "files_gold": [
+      "base64.go",
+      "builtin_modules.go",
+      "func_typedefs.go",
+      "hex.go",
+      "stdlib-base64.md",
+      "stdlib-hex.md",
+      "stdlib.md"
+    ],
+    "files_gen": [
+      "base64.go"
+    ],
+    "preview": "```diff\ndiff --git a/stdlib/base64.go b/stdlib/base64.go\nnew file mode 100644\nindex 0000000..a1b2c3d\n--- /dev/null\n+++ b/stdlib/base64.go\n@@ -0,0 +1,100 @@\n+package stdlib\n+\n+import (\n+\t\"encoding/base64\"\n+\t\"fmt\"\n+\n+\t\"github.com/d5/tengo/v4\"\n+)\n+\n+// Base64 module functions\n+\n+func init() {\n+\tRegiste"
+  },
+  {
+    "instance_id": "go-ldap__ldap-111",
+    "language": "go",
+    "repo": "go-ldap/ldap",
+    "prompt_chars": 2158,
+    "elapsed_s": 8.38,
+    "has_diff": true,
+    "file_recall": 1.0,
+    "line_recall": 0.148,
+    "files_gold": [
+      "search.go"
+    ],
+    "files_gen": [
+      "search.go",
+      "search_test.go"
+    ],
+    "preview": "```diff\ndiff --git a/search.go b/search.go\nindex 1e3e0a5..f0c0c0c 100644\n--- a/search.go\n+++ b/search.go\n@@ -100,6 +100,16 @@ func (entry *Entry) GetRawAttributeValue(attribute string) []string {\n \treturn entry.GetRawAttributeValues(attribute)\n }\n \n+// GetEqualFoldAttributeValue returns the first va"
+  },
+  {
+    "instance_id": "vaskoz__dailycodingproblem-go-471",
+    "language": "go",
+    "repo": "vaskoz/dailycodingproblem-go",
+    "prompt_chars": 2318,
+    "elapsed_s": 5.19,
+    "has_diff": true,
+    "file_recall": 0.5,
+    "line_recall": 0.565,
+    "files_gold": [
+      "README.md",
+      "problem.go"
+    ],
+    "files_gen": [
+      "problem.go"
+    ],
+    "preview": "diff --git a/day228/problem.go b/day228/problem.go\nnew file mode 100644\nindex 0000000..a1b2c3d\n--- /dev/null\n+++ b/day228/problem.go\n@@ -0,0 +1,25 @@\n+package day228\n+\n+import (\n+\t\"fmt\"\n+\t\"sort\"\n+\t\"strconv\"\n+)\n+\n+// LargestPossibleInteger arranges the given numbers to form the largest possible integ"
+  },
+  {
+    "instance_id": "knative__client-1054",
+    "language": "go",
+    "repo": "knative/client",
+    "prompt_chars": 6270,
+    "elapsed_s": 23.64,
+    "has_diff": true,
+    "file_recall": 0.1111111111111111,
+    "line_recall": 0.25,
+    "files_gold": [
+      "CHANGELOG.adoc",
+      "broker.go",
+      "client.go",
+      "kn.md",
+      "kn_broker.md",
+      "kn_broker_create.md",
+      "kn_broker_delete.md",
+      "kn_broker_describe.md",
+      "kn_broker_list.md"
+    ],
+    "files_gen": [
+      "client.go",
+      "client_mock_test.go",
+      "client_test.go"
+    ],
+    "preview": "```diff\ndiff --git a/pkg/serving/v1/client.go b/pkg/serving/v1/client.go\nindex 1a2b3c4d..5e6f7g8h 100644\n--- a/pkg/serving/v1/client.go\n+++ b/pkg/serving/v1/client.go\n@@ -110,6 +110,15 @@ func WithName(name string) ListConfig {\n \treturn func(c *listConfigCollector) { c.Name = name }\n }\n \n+// WithLab"
+  },
+  {
+    "instance_id": "dtolnay__cxx-839",
+    "language": "rust",
+    "repo": "dtolnay/cxx",
+    "prompt_chars": 3219,
+    "elapsed_s": 19.13,
+    "has_diff": true,
+    "file_recall": 0.2,
+    "line_recall": 0.05,
+    "files_gold": [
+      "builtin.rs",
+      "cxx.cc",
+      "cxx_vector.rs",
+      "expand.rs",
+      "write.rs"
+    ],
+    "files_gen": [
+      "cxx.h",
+      "cxx_vector.rs",
+      "lib.rs",
+      "test.rs",
+      "tests.cc"
+    ],
+    "preview": "```diff\ndiff --git a/include/cxx.h b/include/cxx.h\nindex 1e7a0000..b0b0b0b0 100644\n--- a/include/cxx.h\n+++ b/include/cxx.h\n@@ -1000,6 +1000,10 @@ extern \"C\" {\n   void __cxx_vector_resize(CxxVector<T> *v, size_t n);\n }\n \n+template <typename T>\n+extern \"C\" {\n+  void __cxx_vector_push_back(CxxVector<T>"
+  },
+  {
+    "instance_id": "rust-bitcoin__rust-bitcoin-2255",
+    "language": "rust",
+    "repo": "rust-bitcoin/rust-bitcoin",
+    "prompt_chars": 4291,
+    "elapsed_s": 33.61,
+    "has_diff": true,
+    "file_recall": 0.3333333333333333,
+    "line_recall": 0.03,
+    "files_gold": [
+      "borrowed.rs",
+      "sighash.rs",
+      "transaction.rs"
+    ],
+    "files_gen": [
+      "borrowed.rs"
+    ],
+    "preview": "```diff\ndiff --git a/bitcoin/src/blockdata/script/borrowed.rs b/bitcoin/src/blockdata/script/borrowed.rs\nindex 1a2b3c4d..5e6f7g8h 100644\n--- a/bitcoin/src/blockdata/script/borrowed.rs\n+++ b/bitcoin/src/blockdata/script/borrowed.rs\n@@ -1,6 +1,7 @@\n use core::fmt;\n use core::ops::Index;\n \n+use crate::"
+  },
+  {
+    "instance_id": "projectfluent__fluent-rs-143",
+    "language": "rust",
+    "repo": "projectfluent/fluent-rs",
+    "prompt_chars": 5114,
+    "elapsed_s": 19.19,
+    "has_diff": true,
+    "file_recall": 1.0,
+    "line_recall": 0.149,
+    "files_gold": [
+      "bundle.rs"
+    ],
+    "files_gen": [
+      "bundle.rs"
+    ],
+    "preview": "```diff\ndiff --git a/fluent-bundle/src/bundle.rs b/fluent-bundle/src/bundle.rs\nindex 1a3b0c1..d4e5f6a 100644\n--- a/fluent-bundle/src/bundle.rs\n+++ b/fluent-bundle/src/bundle.rs\n@@ -1,6 +1,6 @@\n // This Source Code Form is subject to the terms of the Mozilla Public\n // License, v. 2.0. If a copy of t"
+  },
+  {
+    "instance_id": "peternator7__strum-220",
+    "language": "rust",
+    "repo": "Peternator7/strum",
+    "prompt_chars": 2398,
+    "elapsed_s": 33.24,
+    "has_diff": true,
+    "file_recall": 0.3333333333333333,
+    "line_recall": 0.0,
+    "files_gold": [
+      "CHANGELOG.md",
+      "Cargo.toml",
+      "from_string.rs",
+      "lib.rs",
+      "metadata.rs",
+      "type_props.rs"
+    ],
+    "files_gen": [
+      "Cargo.toml",
+      "lib.rs"
+    ],
+    "preview": "```diff\ndiff --git a/strum_macros/Cargo.toml b/strum_macros/Cargo.toml\nindex 1e7f7f7..a1b2c3d 100644\n--- a/strum_macros/Cargo.toml\n+++ b/strum_macros/Cargo.toml\n@@ -15,6 +15,9 @@ proc-macro2 = \"1.0\"\n quote = \"1.0\"\n syn = { version = \"1.0\", features = [\"full\"] }\n \n+[dependencies.phf]\n+version = \"0.11"
+  },
+  {
+    "instance_id": "rust-lang__rustfmt-5817",
+    "language": "rust",
+    "repo": "rust-lang/rustfmt",
+    "prompt_chars": 3255,
+    "elapsed_s": 6.15,
+    "has_diff": true,
+    "file_recall": 1.0,
+    "line_recall": 0.643,
+    "files_gold": [
+      "macro_names.rs"
+    ],
+    "files_gen": [
+      "macro_names.rs"
+    ],
+    "preview": "diff --git a/src/config/macro_names.rs b/src/config/macro_names.rs\n--- a/src/config/macro_names.rs\n+++ b/src/config/macro_names.rs\n@@ -1,6 +1,7 @@\n use std::fmt;\n use std::str::FromStr;\n \n+use serde::de::{self, Deserializer};\n use serde::Serialize;\n \n use crate::config::macro_names::MacroSelector::*"
+  },
+  {
+    "instance_id": "andrewdavidmackenzie__pigg-16",
+    "language": "rust",
+    "repo": "andrewdavidmackenzie/pigg",
+    "prompt_chars": 1524,
+    "elapsed_s": 32.94,
+    "has_diff": true,
+    "file_recall": 0.2222222222222222,
+    "line_recall": 0.05,
+    "files_gold": [
+      "Cargo.toml",
+      "Makefile",
+      "codecov.yml",
+      "gpio.rs",
+      "none.rs",
+      "pi.rs",
+      "pico.rs",
+      "piggui.rs",
+      "piglet.rs"
+    ],
+    "files_gen": [
+      "Cargo.toml",
+      "gpio.rs"
+    ],
+    "preview": "To resolve the issue of making `GPIOConfig` and `GPIOState` independent of `rrpal`, we need to refactor the `pigg` crate to remove the dependency on `rrpal` for these types.\n\nThe current implementation likely uses `rrpal::gpio` types. We will replace these with standard Rust types or custom types de"
+  },
+  {
+    "instance_id": "paritytech__parity-common-667",
+    "language": "rust",
+    "repo": "paritytech/parity-common",
+    "prompt_chars": 3451,
+    "elapsed_s": 0.88,
+    "has_diff": false,
+    "file_recall": 0.0,
+    "line_recall": 0.0,
+    "files_gold": [
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "Cargo.toml",
+      "hash.rs",
+      "lib.rs",
+      "serialize.rs",
+      "uint.rs"
+    ],
+    "files_gen": [],
+    "preview": "uint/tests/uint_tests.rs"
+  },
+  {
+    "instance_id": "apollographql__apollo-rs-565",
+    "language": "rust",
+    "repo": "apollographql/apollo-rs",
+    "prompt_chars": 11284,
+    "elapsed_s": 35.94,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.0,
+    "files_gold": [
+      "value.rs",
+      "variable.rs"
+    ],
+    "files_gen": [
+      "context.rs",
+      "resolve.rs"
+    ],
+    "preview": "```diff\ndiff --git a/crates/apollo-compiler/src/execution/resolve.rs b/crates/apollo-compiler/src/execution/resolve.rs\nindex 0c6e7f1..b0c6e7f 100644\n--- a/crates/apollo-compiler/src/execution/resolve.rs\n+++ b/crates/apollo-compiler/src/execution/resolve.rs\n@@ -100,7 +100,7 @@ pub(crate) fn resolve_a"
+  },
+  {
+    "instance_id": "elastic__synthetics-316",
+    "language": "ts",
+    "repo": "elastic/synthetics",
+    "prompt_chars": 2260,
+    "elapsed_s": 17.61,
+    "has_diff": true,
+    "file_recall": 0.5,
+    "line_recall": 0.075,
+    "files_gold": [
+      "json.ts",
+      "runner.ts"
+    ],
+    "files_gen": [
+      "runner.ts"
+    ],
+    "preview": "```diff\ndiff --git a/src/core/runner.ts b/src/core/runner.ts\nindex 5a6d7e7..8b9c3a1 100644\n--- a/src/core/runner.ts\n+++ b/src/core/runner.ts\n@@ -1,6 +1,7 @@\n import { EventEmitter } from 'events';\n import { Page } from 'playwright-core';\n import { Journey } from './journey';\n+import { Hook } from '."
+  },
+  {
+    "instance_id": "awslabs__aws-embedded-metrics-node-19",
+    "language": "ts",
+    "repo": "awslabs/aws-embedded-metrics-node",
+    "prompt_chars": 11385,
+    "elapsed_s": 35.36,
+    "has_diff": true,
+    "file_recall": 0.3333333333333333,
+    "line_recall": 0.055,
+    "files_gold": [
+      "ConsoleSink.ts",
+      "EnvironmentConfigurationProvider.ts",
+      "EnvironmentDetector.ts",
+      "Environments.ts",
+      "IConfiguration.ts",
+      "LambdaEnvironment.ts",
+      "LocalEnvironment.ts",
+      "README.md",
+      "index.ts"
+    ],
+    "files_gen": [
+      "Configuration.ts",
+      "DefaultEnvironment.ts",
+      "EC2Environment.ts",
+      "EnvironmentConfigurationProvider.ts",
+      "Environments.ts",
+      "IEnvironment.ts",
+      "LambdaEnvironment.ts"
+    ],
+    "preview": "diff --git a/src/config/Configuration.ts b/src/config/Configuration.ts\nindex 1a2b3c4..5d6e7f8 100644\n--- a/src/config/Configuration.ts\n+++ b/src/config/Configuration.ts\n@@ -1,6 +1,7 @@\n import { MetricsLogger } from '../logger/MetricsLogger';\n import { MetricsContext } from '../logger/MetricsContext"
+  },
+  {
+    "instance_id": "tanstack__router-3269",
+    "language": "ts",
+    "repo": "TanStack/router",
+    "prompt_chars": 19205,
+    "elapsed_s": 38.03,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.012,
+    "files_gold": [
+      "Match.tsx",
+      "Matches.tsx",
+      "RouteOptionsType.md",
+      "RouterOptionsType.md",
+      "constants.ts",
+      "create-route-property-order.md",
+      "index.tsx",
+      "path.ts",
+      "route.ts",
+      "router.ts"
+    ],
+    "files_gen": [],
+    "preview": "packages/router-core/src/path.ts\n```typescript\n--- a/packages/router-core/src/path.ts\n+++ b/packages/router-core/src/path.ts\n@@ -1,6 +1,6 @@\n import type { AnyRoute } from '@tanstack/react-router'\n import { createMemoryHistory } from './history'\n-import { interpolatePath } from './path'\n+import { in"
+  },
+  {
+    "instance_id": "khan__flow-to-ts-216",
+    "language": "ts",
+    "repo": "Khan/flow-to-ts",
+    "prompt_chars": 2963,
+    "elapsed_s": 24.71,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.016,
+    "files_gold": [
+      "compute-newlines.js",
+      "convert.js",
+      "transform.js"
+    ],
+    "files_gen": [
+      "convert.ts",
+      "types.ts"
+    ],
+    "preview": "```diff\ndiff --git a/src/convert.ts b/src/convert.ts\nindex 1234567..abcdefg 100644\n--- a/src/convert.ts\n+++ b/src/convert.ts\n@@ -1,6 +1,7 @@\n import * as fs from 'fs';\n import * as path from 'path';\n import * as ts from 'typescript';\n+import * as babel from '@babel/generator';\n import * as babelPars"
+  },
+  {
+    "instance_id": "elastic__synthetics-622",
+    "language": "ts",
+    "repo": "elastic/synthetics",
+    "prompt_chars": 14261,
+    "elapsed_s": 36.93,
+    "has_diff": true,
+    "file_recall": 1.0,
+    "line_recall": 0.111,
+    "files_gold": [
+      "index.ts",
+      "monitor.ts",
+      "runner.ts"
+    ],
+    "files_gen": [
+      "index.ts",
+      "monitor.ts",
+      "options.ts",
+      "runner.ts"
+    ],
+    "preview": "diff --git a/src/core/runner.ts b/src/core/runner.ts\nindex 0f7e77e..b0c8e5a 100644\n--- a/src/core/runner.ts\n+++ b/src/core/runner.ts\n@@ -1,6 +1,7 @@\n import { EventEmitter } from 'events';\n import { Logger } from 'pino';\n import { Journey, JourneySchema } from '../dsl/journey';\n+import { Monitor } f"
+  },
+  {
+    "instance_id": "joshuakgoldberg__create-typescript-app-1793",
+    "language": "ts",
+    "repo": "JoshuaKGoldberg/create-typescript-app",
+    "prompt_chars": 15113,
+    "elapsed_s": 18.88,
+    "has_diff": true,
+    "file_recall": 0.5,
+    "line_recall": 0.0,
+    "files_gold": [
+      "packages.ts",
+      "readOptions.ts"
+    ],
+    "files_gen": [
+      "readOptions.ts"
+    ],
+    "preview": "```diff\ndiff --git a/src/shared/options/readOptions.ts b/src/shared/options/readOptions.ts\nindex 1234567..89abcde 100644\n--- a/src/shared/options/readOptions.ts\n+++ b/src/shared/options/readOptions.ts\n@@ -1,5 +1,5 @@\n import { parseArgs } from \"node:util\";\n-import { readPackageData } from \"../packag"
+  },
+  {
+    "instance_id": "ant-design__ant-design-mobile-6239",
+    "language": "ts",
+    "repo": "ant-design/ant-design-mobile",
+    "prompt_chars": 1670,
+    "elapsed_s": 24.68,
+    "has_diff": true,
+    "file_recall": 0.5,
+    "line_recall": 0.0,
+    "files_gold": [
+      "text-area.less",
+      "virtual-input.tsx"
+    ],
+    "files_gen": [
+      "index.ts",
+      "textarea.ts",
+      "textarea.tsx",
+      "virtual-input.ts",
+      "virtual-input.tsx"
+    ],
+    "preview": "```diff\ndiff --git a/src/components/text-area/style/index.ts b/src/components/text-area/style/index.ts\nindex 1a3b3c3d3..e4f5a6b7c 100644\n--- a/src/components/text-area/style/index.ts\n+++ b/src/components/text-area/style/index.ts\n@@ -1,5 +1,6 @@\n import { genStyleHooks } from '../../_util/genStyleHoo"
+  },
+  {
+    "instance_id": "typedorm__typedorm-111",
+    "language": "ts",
+    "repo": "typedorm/typedorm",
+    "prompt_chars": 6029,
+    "elapsed_s": 4.83,
+    "has_diff": true,
+    "file_recall": 1.0,
+    "line_recall": 0.143,
+    "files_gold": [
+      "entity-manager.ts"
+    ],
+    "files_gen": [
+      "entity-manager.ts"
+    ],
+    "preview": "```diff\ndiff --git a/packages/core/src/classes/manager/entity-manager.ts b/packages/core/src/classes/manager/entity-manager.ts\nindex 153c0e3..8b8c8c8 100644\n--- a/packages/core/src/classes/manager/entity-manager.ts\n+++ b/packages/core/src/classes/manager/entity-manager.ts\n@@ -152,10 +152,12 @@ expor"
+  },
+  {
+    "instance_id": "crawler-commons__crawler-commons-227",
+    "language": "java",
+    "repo": "crawler-commons/crawler-commons",
+    "prompt_chars": 4698,
+    "elapsed_s": 6.94,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.0,
+    "files_gold": [
+      "CHANGES.txt",
+      "DelegatorHandler.java",
+      "XMLHandler.java",
+      "XMLIndexHandler.java"
+    ],
+    "files_gen": [
+      "SiteMapIndexParser.java"
+    ],
+    "preview": "```diff\ndiff --git a/src/main/java/crawlercommons/sitemaps/SiteMapIndexParser.java b/src/main/java/crawlercommons/sitemaps/SiteMapIndexParser.java\nindex 0f7f7f7..a1b1b1b 100644\n--- a/src/main/java/crawlercommons/sitemaps/SiteMapIndexParser.java\n+++ b/src/main/java/crawlercommons/sitemaps/SiteMapInde"
+  },
+  {
+    "instance_id": "kestra-io__kestra-5316",
+    "language": "java",
+    "repo": "kestra-io/kestra",
+    "prompt_chars": 2208,
+    "elapsed_s": 28.9,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.026,
+    "files_gold": [
+      "AbstractFlow.java",
+      "Docker.md",
+      "EditorView.vue",
+      "Executions.vue",
+      "Flows.vue",
+      "Namespace.vue",
+      "build.gradle",
+      "kestra"
+    ],
+    "files_gen": [
+      "Flow.java",
+      "YamlFlowParser.java",
+      "YamlFlowParserTest.java"
+    ],
+    "preview": "```diff\ndiff --git a/core/src/main/java/io/kestra/core/models/flows/Flow.java b/core/src/main/java/io/kestra/core/models/flows/Flow.java\nindex 0c6f0f0f0..a1b2c3d4e 100644\n--- a/core/src/main/java/io/kestra/core/models/flows/Flow.java\n+++ b/core/src/main/java/io/kestra/core/models/flows/Flow.java\n@@ "
+  },
+  {
+    "instance_id": "decorators-squad__eo-yaml-467",
+    "language": "java",
+    "repo": "decorators-squad/eo-yaml",
+    "prompt_chars": 3563,
+    "elapsed_s": 11.0,
+    "has_diff": true,
+    "file_recall": 0.3333333333333333,
+    "line_recall": 0.114,
+    "files_gold": [
+      "PlainStringScalar.java",
+      "RtYamlScalarBuilder.java",
+      "YamlScalarBuilder.java"
+    ],
+    "files_gen": [
+      "PlainStringScalar.java"
+    ],
+    "preview": "```diff\ndiff --git a/src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java b/src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java\nindex 1a2b3c4..5d6e7f8 100644\n--- a/src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java\n+++ b/src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java"
+  },
+  {
+    "instance_id": "jhipster__jhipster-lite-10797",
+    "language": "java",
+    "repo": "jhipster/jhipster-lite",
+    "prompt_chars": 6850,
+    "elapsed_s": 8.38,
+    "has_diff": true,
+    "file_recall": 0.5,
+    "line_recall": 0.25,
+    "files_gold": [
+      "ReactCoreModulesFactory.java",
+      "ReactJwtModuleFactory.java"
+    ],
+    "files_gen": [
+      "ReactCoreModulesFactory.java"
+    ],
+    "preview": "diff --git a/src/main/java/tech/jhipster/lite/generator/client/react/core/domain/ReactCoreModulesFactory.java b/src/main/java/tech/jhipster/lite/generator/client/react/core/domain/ReactCoreModulesFactory.java\nindex 159f11b46..8a7c8c8c8 100644\n--- a/src/main/java/tech/jhipster/lite/generator/client/r"
+  },
+  {
+    "instance_id": "xlate__staedi-130",
+    "language": "java",
+    "repo": "xlate/staedi",
+    "prompt_chars": 16956,
+    "elapsed_s": 38.08,
+    "has_diff": true,
+    "file_recall": 0.125,
+    "line_recall": 0.0,
+    "files_gold": [
+      "CharacterSet.java",
+      "EDIFACTDialect.java",
+      "EDIInputFactory.java",
+      "Lexer.java",
+      "StaEDIInputFactory.java",
+      "StaEDIStreamReader.java",
+      "X12Dialect.java",
+      "pom.xml"
+    ],
+    "files_gen": [
+      "StaEDIStreamReader.java"
+    ],
+    "preview": "```diff\ndiff --git a/src/main/java/io/xlate/edi/internal/stream/StaEDIStreamReader.java b/src/main/java/io/xlate/edi/internal/stream/StaEDIStreamReader.java\nindex 3e7b07c..98441c2 100644\n--- a/src/main/java/io/xlate/edi/internal/stream/StaEDIStreamReader.java\n+++ b/src/main/java/io/xlate/edi/interna"
+  },
+  {
+    "instance_id": "projectlombok__lombok-3578",
+    "language": "java",
+    "repo": "projectlombok/lombok",
+    "prompt_chars": 39218,
+    "elapsed_s": 43.49,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.0,
+    "files_gold": [
+      "EclipseHandlerUtil.java",
+      "HandleLocked.java",
+      "HandleLockedRead.java",
+      "HandleLockedWrite.java",
+      "HandleSneakyThrows.java",
+      "HandleSynchronized.java"
+    ],
+    "files_gen": [
+      "HandlerSneakyThrows.java"
+    ],
+    "preview": "diff --git a/src/lombok/eclipse/transform/impl/HandlerSneakyThrows.java b/src/lombok/eclipse/transform/impl/HandlerSneakyThrows.java\nindex 0a6f7f7..e0c3b3a 100644\n--- a/src/lombok/eclipse/transform/impl/HandlerSneakyThrows.java\n+++ b/src/lombok/eclipse/transform/impl/HandlerSneakyThrows.java\n@@ -1,5"
+  },
+  {
+    "instance_id": "amzn__ion-java-289",
+    "language": "java",
+    "repo": "amzn/ion-java",
+    "prompt_chars": 3949,
+    "elapsed_s": 33.62,
+    "has_diff": true,
+    "file_recall": 0.0,
+    "line_recall": 0.0,
+    "files_gold": [
+      "IonWriterSystemText.java"
+    ],
+    "files_gen": [
+      "IonRawTextWriter.java",
+      "IonTextAppender.java",
+      "IonTextWriter.java",
+      "IonTextWriterBuilder.java",
+      "IonTextWriterBuilder_1_0.java",
+      "IonTextWriterBuilder_1_1.java",
+      "IonTextWriterBuilder_Base.java",
+      "IonTextWriterBuilder_SharedState.java",
+      "_Private_IonTextWriterBuilder.java"
+    ],
+    "preview": "```diff\ndiff --git a/src/com/amazon/ion/impl/IonTextWriterBuilder.java b/src/com/amazon/ion/impl/IonTextWriterBuilder.java\nindex 1a2b3c4d..5e6f7g8h 100644\n--- a/src/com/amazon/ion/impl/IonTextWriterBuilder.java\n+++ b/src/com/amazon/ion/impl/IonTextWriterBuilder.java\n@@ -1,5 +1,5 @@\n /*\n- * Copyright"
+  },
+  {
+    "instance_id": "mageddo__dns-proxy-server-381",
+    "language": "java",
+    "repo": "mageddo/dns-proxy-server",
+    "prompt_chars": 4564,
+    "elapsed_s": 16.37,
+    "has_diff": true,
+    "file_recall": 0.18181818181818182,
+    "line_recall": 0.169,
+    "files_gold": [
+      ".gitattributes",
+      "DockerConnectionCheck.java",
+      "Dockerfile",
+      "HostMachineService.java",
+      "IP.java",
+      "RELEASE-NOTES.md",
+      "SolverSystem.java",
+      "_index.en.md",
+      "docker-reverse-proxy.en.md",
+      "entrypoint.sh",
+      "gradle.properties"
+    ],
+    "files_gen": [
+      "HostMachineService.java",
+      "SolverSystem.java"
+    ],
+    "preview": "diff --git a/src/main/java/com/mageddo/dnsproxyserver/usecase/HostMachineService.java b/src/main/java/com/mageddo/dnsproxyserver/usecase/HostMachineService.java\nnew file mode 100644\nindex 00000000..a1b2c3d4\n--- /dev/null\n+++ b/src/main/java/com/mageddo/dnsproxyserver/usecase/HostMachineService.java\n"
+  }
+]

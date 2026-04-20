@@ -1,0 +1,242 @@
+[
+  {
+    "ctx": 16384,
+    "depth": 0.05,
+    "found_needle": true,
+    "elapsed_s": 11.12
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.15,
+    "found_needle": false,
+    "elapsed_s": 10.92
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 11.25
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.35,
+    "found_needle": true,
+    "elapsed_s": 11.24
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.45,
+    "found_needle": true,
+    "elapsed_s": 11.23
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.55,
+    "found_needle": true,
+    "elapsed_s": 11.1
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.65,
+    "found_needle": true,
+    "elapsed_s": 11.0
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 11.96
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.85,
+    "found_needle": true,
+    "elapsed_s": 3.73
+  },
+  {
+    "ctx": 16384,
+    "depth": 0.95,
+    "found_needle": true,
+    "elapsed_s": 3.5
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.05,
+    "found_needle": true,
+    "elapsed_s": 24.88
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.15,
+    "found_needle": true,
+    "elapsed_s": 25.01
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 24.89
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.35,
+    "found_needle": true,
+    "elapsed_s": 24.75
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.45,
+    "found_needle": true,
+    "elapsed_s": 24.86
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.55,
+    "found_needle": true,
+    "elapsed_s": 17.65
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.65,
+    "found_needle": true,
+    "elapsed_s": 17.55
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 17.34
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.85,
+    "found_needle": true,
+    "elapsed_s": 8.55
+  },
+  {
+    "ctx": 32768,
+    "depth": 0.95,
+    "found_needle": true,
+    "elapsed_s": 8.75
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.05,
+    "found_needle": false,
+    "elapsed_s": 60.75
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.15,
+    "found_needle": true,
+    "elapsed_s": 61.01
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.25,
+    "found_needle": true,
+    "elapsed_s": 53.73
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.35,
+    "found_needle": false,
+    "elapsed_s": 53.39
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.45,
+    "found_needle": true,
+    "elapsed_s": 53.65
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.55,
+    "found_needle": true,
+    "elapsed_s": 45.05
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.65,
+    "found_needle": true,
+    "elapsed_s": 34.47
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.75,
+    "found_needle": true,
+    "elapsed_s": 34.46
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.85,
+    "found_needle": true,
+    "elapsed_s": 22.84
+  },
+  {
+    "ctx": 65536,
+    "depth": 0.95,
+    "found_needle": false,
+    "elapsed_s": 23.87
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.05,
+    "found_needle": true,
+    "elapsed_s": 169.12
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.15,
+    "found_needle": false,
+    "elapsed_s": 161.37
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.25,
+    "found_needle": false,
+    "elapsed_s": 152.82
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.35,
+    "found_needle": true,
+    "elapsed_s": 153.06
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.45,
+    "found_needle": true,
+    "elapsed_s": 142.77
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.55,
+    "found_needle": false,
+    "elapsed_s": 117.52
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.65,
+    "found_needle": true,
+    "elapsed_s": 102.96
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.75,
+    "found_needle": false,
+    "elapsed_s": 86.31
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.85,
+    "found_needle": false,
+    "elapsed_s": 68.68
+  },
+  {
+    "ctx": 131072,
+    "depth": 0.95,
+    "found_needle": true,
+    "elapsed_s": 49.8
+  }
+]

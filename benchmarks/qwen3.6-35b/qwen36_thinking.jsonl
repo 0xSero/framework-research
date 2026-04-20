@@ -1,0 +1,20 @@
+[
+  {
+    "mode": "direct",
+    "n": 30,
+    "n_pass": 30,
+    "pass_at_1": 1.0,
+    "total_elapsed_s": 46.3,
+    "avg_tokens_per_problem": 153.9,
+    "avg_elapsed_per_problem_s": 6.03
+  },
+  {
+    "mode": "thinking",
+    "n": 30,
+    "n_pass": 19,
+    "pass_at_1": 0.6333,
+    "total_elapsed_s": 407.7,
+    "avg_tokens_per_problem": 1663.3,
+    "avg_elapsed_per_problem_s": 53.21
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "n_predict": 128,
+    "tg_tps": 64.59
+  },
+  {
+    "n_predict": 512,
+    "tg_tps": 65.02
+  },
+  {
+    "n_predict": 2048,
+    "tg_tps": 64.37
+  },
+  {
+    "n_predict": 8192,
+    "tg_tps": 63.47
+  }
+]

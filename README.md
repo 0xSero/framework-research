@@ -26,6 +26,16 @@ the full story. Individual writeups live under `documentation/missions/`,
 corresponding raw data under `benchmarks/missions/`, and runnable harnesses
 under `scripts/missions/`.
 
+Before the numbered missions, there's a month of Phase 0 work comparing the
+Vulkan and ROCm backends, profiling `MUL_MAT_ID` on MoE models, and
+contributing four fixes for speculative decoding on hybrid SSM/MoE models.
+That body of work is written up in
+[`documentation/phase-0-strix-benchmarks.md`](documentation/phase-0-strix-benchmarks.md).
+The platform setup that every run shares is in
+[`documentation/platform-setup.md`](documentation/platform-setup.md), and a
+separate quantization × quality study of Qwen3.6-35B sits in
+[`documentation/qwen3.6-35b.md`](documentation/qwen3.6-35b.md).
+
 ## Hardware under test
 
 | Node              | Role             | Accelerator                      | Memory         | Notes                |
@@ -38,6 +48,10 @@ mission notes otherwise.
 
 ## Highlights
 
+- **Phase 0 — Vulkan vs. ROCm vs. spec-decode.** Peak prefill 406 tok/s
+  (ROCm+MMQ); peak decode 40.1 tok/s (ROCm full stack + spec). Chat
+  workload improved +47 % end-to-end over Vulkan stock. Filed upstream
+  as llama.cpp issue #21948 and validated PRs #21344 and #20075.
 - **Mission 01 — KV cache frontier.** Found 14 Pareto-optimal cache
   combinations. Best long-context result: `f16/f16` KV reached 131 K tokens
   at pp=152.76 / tg=24.58 tok/s. Lower KV precisions trade speed for recall.

@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "DYNAMIC",
+    "ppl": 5.8635,
+    "size_bytes": 20481456160
+  },
+  {
+    "variant": "Q4_K_M",
+    "ppl": 5.8936,
+    "size_bytes": 21166757920
+  },
+  {
+    "variant": "Q6_K",
+    "ppl": 5.8479,
+    "size_bytes": 28514152480
+  },
+  {
+    "variant": "Q8_0",
+    "ppl": 5.8444,
+    "size_bytes": 36903139360
+  },
+  {
+    "variant": "IQ4_NL",
+    "ppl": 5.925,
+    "size_bytes": 19947706400
+  },
+  {
+    "variant": "Q4_0",
+    "ppl": 5.9982,
+    "size_bytes": 19715053600
+  },
+  {
+    "variant": "Q5_K_M",
+    "ppl": 5.9509,
+    "size_bytes": 24729131040
+  }
+]

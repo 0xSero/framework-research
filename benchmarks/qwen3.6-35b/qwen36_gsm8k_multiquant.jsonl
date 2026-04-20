@@ -1,0 +1,51 @@
+[
+  {
+    "variant": "Q4_0",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 204.5
+  },
+  {
+    "variant": "Q4_K_M",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 227.9
+  },
+  {
+    "variant": "IQ4_NL",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 137.7
+  },
+  {
+    "variant": "DYNAMIC",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 147.9
+  },
+  {
+    "variant": "Q5_K_M",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 216.1
+  },
+  {
+    "variant": "Q6_K",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 195.9
+  },
+  {
+    "variant": "Q8_0",
+    "n": 40,
+    "n_pass": 39,
+    "pass_at_1": 0.975,
+    "elapsed_s": 191.8
+  }
+]

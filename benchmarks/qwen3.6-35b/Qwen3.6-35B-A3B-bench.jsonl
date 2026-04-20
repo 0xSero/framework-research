@@ -1,0 +1,58 @@
+[
+  {
+    "variant": "BF16",
+    "file": "Qwen3.6-35B-A3B-BF16.gguf",
+    "size_bytes": 69376637280,
+    "pp_tps": 396.16,
+    "tg_tps": 10.7
+  },
+  {
+    "variant": "Q8_0",
+    "file": "Qwen3.6-35B-A3B-Q8_0.gguf",
+    "size_bytes": 36903139360,
+    "pp_tps": 974.81,
+    "tg_tps": 52.74
+  },
+  {
+    "variant": "Q6_K",
+    "file": "Qwen3.6-35B-A3B-Q6_K.gguf",
+    "size_bytes": 28514152480,
+    "pp_tps": 830.02,
+    "tg_tps": 62.23
+  },
+  {
+    "variant": "Q5_K_M",
+    "file": "Qwen3.6-35B-A3B-Q5_K_M.gguf",
+    "size_bytes": 24729131040,
+    "pp_tps": 942.83,
+    "tg_tps": 64.1
+  },
+  {
+    "variant": "Q4_K_M",
+    "file": "Qwen3.6-35B-A3B-Q4_K_M.gguf",
+    "size_bytes": 21166757920,
+    "pp_tps": 1021.37,
+    "tg_tps": 70.15
+  },
+  {
+    "variant": "Q4_0",
+    "file": "Qwen3.6-35B-A3B-Q4_0.gguf",
+    "size_bytes": 19715053600,
+    "pp_tps": 1060.75,
+    "tg_tps": 76.46
+  },
+  {
+    "variant": "IQ4_NL",
+    "file": "Qwen3.6-35B-A3B-IQ4_NL.gguf",
+    "size_bytes": 19947706400,
+    "pp_tps": 890.75,
+    "tg_tps": 73.09
+  },
+  {
+    "variant": "DYNAMIC",
+    "file": "Qwen3.6-35B-A3B-DYNAMIC.gguf",
+    "size_bytes": 20481456160,
+    "pp_tps": 1099.76,
+    "tg_tps": 63.98
+  }
+]

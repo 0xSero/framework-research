@@ -1,0 +1,587 @@
+[
+  {
+    "instance_id": "wtforms__wtforms-614",
+    "repo": "wtforms/wtforms",
+    "language": "python",
+    "prompt_chars": 14299,
+    "response_chars": 8924,
+    "tokens_generated": 2488,
+    "elapsed_s": 40.12,
+    "tg_tps": 62.25359879222013,
+    "pp_tps": 149.79309828299662,
+    "has_diff_format": true,
+    "files_gen": [
+      "core.py",
+      "validators.py"
+    ],
+    "files_gold": [
+      "CHANGES.rst",
+      "__init__.py",
+      "core.py",
+      "fields.rst",
+      "html5.py",
+      "validators.py",
+      "validators.rst",
+      "widgets.rst"
+    ],
+    "file_overlap": [
+      "core.py",
+      "validators.py"
+    ],
+    "file_recall": 0.25,
+    "line_overlap_count": 17,
+    "line_recall": 0.046,
+    "generated_preview": "diff --git a/wtforms/fields/core.py b/wtforms/fields/core.py\nindex 848d28d..a1b2c3d 100644\n--- a/wtforms/fields/core.py\n+++ b/wtforms/fields/core.py\n@@ -100,7 +100,7 @@ class Flags:\n     def __getattr__(self, name):\n         if name in self._flags:\n             return self._flags[name]\n-        return False\n+        return None\n \n     def __contains__(self, name):\n         return name in self._fla"
+  },
+  {
+    "instance_id": "aio-libs__aiohttp-9047",
+    "repo": "aio-libs/aiohttp",
+    "language": "python",
+    "prompt_chars": 17975,
+    "response_chars": 3069,
+    "tokens_generated": 898,
+    "elapsed_s": 14.53,
+    "tg_tps": 62.08182481297158,
+    "pp_tps": 116.7917311454349,
+    "has_diff_format": true,
+    "files_gen": [
+      "connector.py",
+      "resolver.py"
+    ],
+    "files_gold": [
+      "9032.bugfix.rst",
+      "connector.py",
+      "resolver.py"
+    ],
+    "file_overlap": [
+      "connector.py",
+      "resolver.py"
+    ],
+    "file_recall": 0.6666666666666666,
+    "line_overlap_count": 2,
+    "line_recall": 0.021,
+    "generated_preview": "diff --git a/aiohttp/connector.py b/aiohttp/connector.py\nindex 1e7c0c7..f8c0c7e 100644\n--- a/aiohttp/connector.py\n+++ b/aiohttp/connector.py\n@@ -100,6 +100,10 @@ _SSL_CONTEXT_VERIFIED: Optional[ssl.SSLContext] = _make_ssl_context(True)\n _SSL_CONTEXT_UNVERIFIED: Optional[ssl.SSLContext] = _make_ssl_context(False)\n \n \n+def _get_ssl_context(\n+    verified: bool,\n+) -> Optional[ssl.SSLContext]:\n+    r"
+  },
+  {
+    "instance_id": "bvanelli__actualpy-56",
+    "repo": "bvanelli/actualpy",
+    "language": "python",
+    "prompt_chars": 8737,
+    "response_chars": 19376,
+    "tokens_generated": 4096,
+    "elapsed_s": 68.31,
+    "tg_tps": 62.319707799687244,
+    "pp_tps": 1009.7789326680361,
+    "has_diff_format": true,
+    "files_gen": [
+      "exceptions.py",
+      "rules.py"
+    ],
+    "files_gold": [
+      "__init__.py",
+      "database.py",
+      "exceptions.py",
+      "queries.py",
+      "rules.py"
+    ],
+    "file_overlap": [
+      "exceptions.py",
+      "rules.py"
+    ],
+    "file_recall": 0.4,
+    "line_overlap_count": 5,
+    "line_recall": 0.042,
+    "generated_preview": "diff --git a/actual/exceptions.py b/actual/exceptions.py\nindex 1a2b3c4..5d6e7f8 100644\n--- a/actual/exceptions.py\n+++ b/actual/exceptions.py\n@@ -1,4 +1,8 @@\n from actual.exceptions import ActualError\n \n+class ActualSplitTransactionError(ActualError):\n+    \"\"\"Exception raised when split transaction amounts are inconsistent.\"\"\"\n+    pass\n+\ndiff --git a/actual/rules.py b/actual/rules.py\nindex 1a2b3c4"
+  },
+  {
+    "instance_id": "keras-team__keras-19955",
+    "repo": "keras-team/keras",
+    "language": "python",
+    "prompt_chars": 22055,
+    "response_chars": 1662,
+    "tokens_generated": 469,
+    "elapsed_s": 14.48,
+    "tg_tps": 62.067734293455445,
+    "pp_tps": 965.9131005489093,
+    "has_diff_format": true,
+    "files_gen": [
+      "variables.py"
+    ],
+    "files_gold": [
+      "core.py",
+      "exports.py",
+      "keras_tensor.py",
+      "seed_generator.py",
+      "variables.py"
+    ],
+    "file_overlap": [
+      "variables.py"
+    ],
+    "file_recall": 0.2,
+    "line_overlap_count": 5,
+    "line_recall": 0.05,
+    "generated_preview": "diff --git a/keras/src/backend/common/variables.py b/keras/src/backend/common/variables.py\nindex 1e7f7f7f7..a1b2c3d4e 100644\n--- a/keras/src/backend/common/variables.py\n+++ b/keras/src/backend/common/variables.py\n@@ -1,6 +1,7 @@\n import numpy as np\n import tree\n import warnings\n+from keras.src import backend\n from keras.src.api_export import keras_export\n from keras.src.backend.common import dtype"
+  },
+  {
+    "instance_id": "aws-cloudformation__cfn-lint-3965",
+    "repo": "aws-cloudformation/cfn-lint",
+    "language": "python",
+    "prompt_chars": 2694,
+    "response_chars": 1612,
+    "tokens_generated": 410,
+    "elapsed_s": 7.24,
+    "tg_tps": 63.27412418580863,
+    "pp_tps": 1140.3852000110548,
+    "has_diff_format": true,
+    "files_gen": [
+      "RefFormat.py"
+    ],
+    "files_gold": [
+      "RefFormat.py"
+    ],
+    "file_overlap": [
+      "RefFormat.py"
+    ],
+    "file_recall": 1.0,
+    "line_overlap_count": 1,
+    "line_recall": 0.143,
+    "generated_preview": "diff --git a/src/cfnlint/rules/functions/RefFormat.py b/src/cfnlint/rules/functions/RefFormat.py\nindex 1f3a7f7c0..8e5b5b5b5 100664\n--- a/src/cfnlint/rules/functions/RefFormat.py\n+++ b/src/cfnlint/rules/functions/RefFormat.py\n@@ -1,6 +1,7 @@\n \"\"\"\n Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.\n SPDX-License-Identifier: MIT-0\n \"\"\"\n+from cfnlint.schema import RESOURCE_TYPE_SPECS\n "
+  },
+  {
+    "instance_id": "qiskit__qiskit-terra-5662",
+    "repo": "Qiskit/qiskit-terra",
+    "language": "python",
+    "prompt_chars": 7248,
+    "response_chars": 13422,
+    "tokens_generated": 4096,
+    "elapsed_s": 67.86,
+    "tg_tps": 62.38513067468803,
+    "pp_tps": 956.0660252321527,
+    "has_diff_format": true,
+    "files_gen": [
+      "core.py"
+    ],
+    "files_gold": [
+      "circuit_visualization.py",
+      "core.py",
+      "idle-time-visualization-b5404ad875cbdae4.yaml",
+      "interface.py",
+      "matplotlib.py",
+      "quantumcircuit.py",
+      "stylesheet.py",
+      "utils.py"
+    ],
+    "file_overlap": [
+      "core.py"
+    ],
+    "file_recall": 0.125,
+    "line_overlap_count": 0,
+    "line_recall": 0.0,
+    "generated_preview": "diff --git a/qiskit/visualization/timeline/core.py b/qiskit/visualization/timeline/core.py\nindex 09d35c902..7ebcb722c 100644\n--- a/qiskit/visualization/timeline/core.py\n+++ b/qiskit/visualization/timeline/core.py\n@@ -1,6 +1,7 @@\n # This code is part of Qiskit.\n #\n # (C) Copyright IBM 2017, 2019.\n+# (C) Copyright IBM 2021.\n #\n # This code is licensed under the Apache License, Version 2.0. You may\n "
+  },
+  {
+    "instance_id": "mozilla-services__cliquet-203",
+    "repo": "mozilla-services/cliquet",
+    "language": "python",
+    "prompt_chars": 2726,
+    "response_chars": 1232,
+    "tokens_generated": 332,
+    "elapsed_s": 5.87,
+    "tg_tps": 63.43177358678021,
+    "pp_tps": 1126.777399060257,
+    "has_diff_format": true,
+    "files_gen": [
+      "__init__.py"
+    ],
+    "files_gold": [
+      "__init__.py"
+    ],
+    "file_overlap": [
+      "__init__.py"
+    ],
+    "file_recall": 1.0,
+    "line_overlap_count": 0,
+    "line_recall": 0.0,
+    "generated_preview": "diff --git a/cliquet/__init__.py b/cliquet/__init__.py\nindex 8f7f7f7f..1a1a1a1a 100644\n--- a/cliquet/__init__.py\n+++ b/cliquet/__init__.py\n@@ -15,7 +15,7 @@ from cliquet import errors\n from cliquet import permission\n from cliquet import storage\n from cliquet import cache\n-from cliquet import event\n+from cliquet import event\n from cliquet import metrics\n from cliquet import scripts\n from cliquet im"
+  },
+  {
+    "instance_id": "azure__walinuxagent-970",
+    "repo": "Azure/WALinuxAgent",
+    "language": "python",
+    "prompt_chars": 5738,
+    "response_chars": 752,
+    "tokens_generated": 199,
+    "elapsed_s": 4.49,
+    "tg_tps": 63.313994460820886,
+    "pp_tps": 1058.4514136782232,
+    "has_diff_format": true,
+    "files_gen": [
+      "errorstate.py"
+    ],
+    "files_gold": [
+      "errorstate.py",
+      "exthandlers.py",
+      "update.py"
+    ],
+    "file_overlap": [
+      "errorstate.py"
+    ],
+    "file_recall": 0.3333333333333333,
+    "line_overlap_count": 2,
+    "line_recall": 0.057,
+    "generated_preview": "diff --git a/azurelinuxagent/common/errorstate.py b/azurelinuxagent/common/errorstate.py\n--- a/azurelinuxagent/common/errorstate.py\n+++ b/azurelinuxagent/common/errorstate.py\n@@ -1,6 +1,7 @@\n import datetime\n import logging\n import threading\n+from unittest.mock import Mock, patch\n \n from azurelinuxagent.common import logger\n from azurelinuxagent.common.utils import timeutil\n@@ -10,10 +11,10 @@\n ER"
+  },
+  {
+    "instance_id": "tomwhite__cubed-211",
+    "repo": "tomwhite/cubed",
+    "language": "python",
+    "prompt_chars": 27367,
+    "response_chars": 5375,
+    "tokens_generated": 1507,
+    "elapsed_s": 32.42,
+    "tg_tps": 61.56269067276623,
+    "pp_tps": 960.6916573505995,
+    "has_diff_format": true,
+    "files_gen": [
+      "lithops.py",
+      "modal_async.py",
+      "python_async.py"
+    ],
+    "files_gold": [
+      "lithops.py",
+      "python_async.py"
+    ],
+    "file_overlap": [
+      "lithops.py",
+      "python_async.py"
+    ],
+    "file_recall": 1.0,
+    "line_overlap_count": 0,
+    "line_recall": 0.0,
+    "generated_preview": "diff --git a/cubed/runtime/executors/lithops.py b/cubed/runtime/executors/lithops.py\nindex 1e3f3f3..a8b8c8d 100644\n--- a/cubed/runtime/executors/lithops.py\n+++ b/cubed/runtime/executors/lithops.py\n@@ -1,6 +1,6 @@\n import logging\n import time\n-from typing import Callable, Iterable, Optional, Tuple\n+from typing import Callable, Iterable, Optional, Tuple, Union\n \n import lithops\n from lithops.executo"
+  },
+  {
+    "instance_id": "pandas-dev__pandas-59608",
+    "repo": "pandas-dev/pandas",
+    "language": "python",
+    "prompt_chars": 10776,
+    "response_chars": 1523,
+    "tokens_generated": 476,
+    "elapsed_s": 10.69,
+    "tg_tps": 62.645088855346565,
+    "pp_tps": 1048.0624818252656,
+    "has_diff_format": true,
+    "files_gen": [
+      "frame.py",
+      "test_arrow_interface.py"
+    ],
+    "files_gold": [
+      "accessor.py",
+      "base.py",
+      "categorical.py",
+      "code_checks.sh",
+      "csvs.py",
+      "groupby.py",
+      "series.py",
+      "v3.0.0.rst"
+    ],
+    "file_overlap": [],
+    "file_recall": 0.0,
+    "line_overlap_count": 2,
+    "line_recall": 0.013,
+    "generated_preview": "diff --git a/pandas/core/frame.py b/pandas/core/frame.py\nindex 360597c349..a1b0c8d7e2 100644\n--- a/pandas/core/frame.py\n+++ b/pandas/core/frame.py\n@@ -10000,6 +10000,12 @@ class DataFrame(NdFrame):\n             # GH#58721\n             if isinstance(self.index, MultiIndex) and isinstance(\n                 other.index, MultiIndex\n             ):\n+                # GH#58721: Handle MultiIndex with No"
+  },
+  {
+    "instance_id": "sissbruecker__linkding-984",
+    "repo": "sissbruecker/linkding",
+    "language": "python",
+    "prompt_chars": 4012,
+    "response_chars": 797,
+    "tokens_generated": 251,
+    "elapsed_s": 4.88,
+    "tg_tps": 63.44290757581617,
+    "pp_tps": 1191.4381116705656,
+    "has_diff_format": true,
+    "files_gen": [
+      "shared.html"
+    ],
+    "files_gold": [
+      "bookmarks.py",
+      "head.html"
+    ],
+    "file_overlap": [],
+    "file_recall": 0.0,
+    "line_overlap_count": 0,
+    "line_recall": 0.0,
+    "generated_preview": "diff --git a/bookmarks/templates/bookmarks/shared.html b/bookmarks/templates/bookmarks/shared.html\nindex 8b0c680..ff7ed70 100644\n--- a/bookmarks/templates/bookmarks/shared.html\n+++ b/bookmarks/templates/bookmarks/shared.html\n@@ -1,5 +1,6 @@\n {% extends \"bookmarks/layout.html\" %}\n {% load static %}\n+{% load links %}\n \n {% block title %}{{ settings.site_name }} - Shared bookmarks{% endblock %}\n \n@@ "
+  },
+  {
+    "instance_id": "databricks__dbt-databricks-935",
+    "repo": "databricks/dbt-databricks",
+    "language": "python",
+    "prompt_chars": 5700,
+    "response_chars": 4351,
+    "tokens_generated": 1266,
+    "elapsed_s": 21.61,
+    "tg_tps": 62.860716739282545,
+    "pp_tps": 1046.4599854985477,
+    "has_diff_format": true,
+    "files_gen": [
+      "fixtures.py",
+      "liquid_clustering.sql",
+      "test_liquid_clustering.py",
+      "test_table_macros.py"
+    ],
+    "files_gold": [
+      "CHANGELOG.md",
+      "impl.py",
+      "liquid_clustering.sql",
+      "optimize.sql"
+    ],
+    "file_overlap": [
+      "liquid_clustering.sql"
+    ],
+    "file_recall": 0.25,
+    "line_overlap_count": 1,
+    "line_recall": 0.059,
+    "generated_preview": "diff --git a/dbt/include/databricks/macros/relations/liquid_clustering.sql b/dbt/include/databricks/macros/relations/liquid_clustering.sql\nindex 1e7f7f7f..8a9b9b9b 100644\n--- a/dbt/include/databricks/macros/relations/liquid_clustering.sql\n+++ b/dbt/include/databricks/macros/relations/liquid_clustering.sql\n@@ -1,10 +1,15 @@\n {% macro liquid_clustered_cols() %}\n-    {% set liquid_clustered_by = conf"
+  },
+  {
+    "instance_id": "tox-dev__sphinx-autodoc-typehints-474",
+    "repo": "tox-dev/sphinx-autodoc-typehints",
+    "language": "python",
+    "prompt_chars": 7879,
+    "response_chars": 1261,
+    "tokens_generated": 368,
+    "elapsed_s": 8.31,
+    "tg_tps": 62.867531619122516,
+    "pp_tps": 974.8003646506427,
+    "has_diff_format": true,
+    "files_gen": [
+      "__init__.py"
+    ],
+    "files_gold": [
+      "__init__.py"
+    ],
+    "file_overlap": [
+      "__init__.py"
+    ],
+    "file_recall": 1.0,
+    "line_overlap_count": 2,
+    "line_recall": 0.118,
+    "generated_preview": "diff --git a/sphinx_autodoc_typehints/__init__.py b/sphinx_autodoc_typehints/__init__.py\nindex 1e0a0a0..b0c0c0c 100644\n--- a/sphinx_autodoc_typehints/__init__.py\n+++ b/sphinx_autodoc_typehints/__init__.py\n@@ -1,6 +1,7 @@\n \"\"\"Sphinx autodoc typehints.\"\"\"\n \n import asyncio\n+import copy\n import inspect\n import os\n import re\n@@ -13,6 +14,7 @@ from typing import (\n     Union,\n )\n \n+from sphinx.config i"
+  },
+  {
+    "instance_id": "meltano__sdk-1881",
+    "repo": "meltano/sdk",
+    "language": "python",
+    "prompt_chars": 2247,
+    "response_chars": 2530,
+    "tokens_generated": 680,
+    "elapsed_s": 11.42,
+    "tg_tps": 63.300996143572995,
+    "pp_tps": 1082.7558635394455,
+    "has_diff_format": true,
+    "files_gen": [
+      "target_base.py"
+    ],
+    "files_gold": [
+      "capabilities.py",
+      "target_base.py"
+    ],
+    "file_overlap": [
+      "target_base.py"
+    ],
+    "file_recall": 0.5,
+    "line_overlap_count": 1,
+    "line_recall": 0.1,
+    "generated_preview": "diff --git a/singer_sdk/target_base.py b/singer_sdk/target_base.py\nindex 0b7c0f0..a8e5c3d 100644\n--- a/singer_sdk/target_base.py\n+++ b/singer_sdk/target_base.py\n@@ -1,6 +1,7 @@\n from __future__ import annotations\n \n import copy\n+import json\n import logging\n import sys\n import time\n@@ -10,6 +11,7 @@ from typing import (\n     Iterable,\n     Mapping,\n     MutableMapping,\n+    Optional,\n     Set,\n    "
+  },
+  {
+    "instance_id": "fsspec__universal_pathlib-148",
+    "repo": "fsspec/universal_pathlib",
+    "language": "python",
+    "prompt_chars": 5406,
+    "response_chars": 5813,
+    "tokens_generated": 2001,
+    "elapsed_s": 33.7,
+    "tg_tps": 62.67380548769461,
+    "pp_tps": 1002.9258815590068,
+    "has_diff_format": true,
+    "files_gen": [
+      "cases.py",
+      "noxfile.py",
+      "pyproject.toml",
+      "test_gcs.py",
+      "test_hdfs.py",
+      "test_webdav.py",
+      "tests.yml",
+      "utils.py"
+    ],
+    "files_gold": [
+      "README.md",
+      "core.py",
+      "hdfs.py",
+      "noxfile.py",
+      "setup.cfg"
+    ],
+    "file_overlap": [
+      "noxfile.py"
+    ],
+    "file_recall": 0.2,
+    "line_overlap_count": 3,
+    "line_recall": 0.075,
+    "generated_preview": "diff --git a/.github/workflows/tests.yml b/.github/workflows/tests.yml\nindex 41e6eba..dff0f69 100644\n--- a/.github/workflows/tests.yml\n+++ b/.github/workflows/tests.yml\n@@ -22,6 +22,12 @@ jobs:\n       matrix:\n         os: [ubuntu-20.04, windows-latest, macos-latest]\n         pyv: ['3.8', '3.9', '3.10', '3.11']\n+        fsspec: ['']\n+\n+        include:\n+          - os: ubuntu-20.04\n+            pyv"
+  },
+  {
+    "instance_id": "tefra__xsdata-310",
+    "repo": "tefra/xsdata",
+    "language": "python",
+    "prompt_chars": 22005,
+    "response_chars": 15257,
+    "tokens_generated": 4096,
+    "elapsed_s": 72.5,
+    "tg_tps": 61.68066624034323,
+    "pp_tps": 969.6716120861226,
+    "has_diff_format": true,
+    "files_gen": [
+      "context.py",
+      "enums.py",
+      "nodes.py",
+      "utils.py",
+      "xml.py"
+    ],
+    "files_gold": [
+      ".pre-commit-config.yaml",
+      "context.py",
+      "elements.py",
+      "enums.py",
+      "nodes.py",
+      "utils.py",
+      "xml.py"
+    ],
+    "file_overlap": [
+      "context.py",
+      "enums.py",
+      "nodes.py",
+      "utils.py",
+      "xml.py"
+    ],
+    "file_recall": 0.7142857142857143,
+    "line_overlap_count": 28,
+    "line_recall": 0.108,
+    "generated_preview": "diff --git a/xsdata/formats/dataclass/context.py b/xsdata/formats/dataclass/context.py\nindex 05c05c05..12345678 100644\n--- a/xsdata/formats/dataclass/context.py\n+++ b/xsdata/formats/dataclass/context.py\n@@ -1,6 +1,7 @@\n from __future__ import annotations\n \n from collections import defaultdict\n+from typing import Any\n from typing import Dict\n from typing import List\n from typing import Optional\n@@ "
+  },
+  {
+    "instance_id": "pyqtgraph__pyqtgraph-1845",
+    "repo": "pyqtgraph/pyqtgraph",
+    "language": "python",
+    "prompt_chars": 7815,
+    "response_chars": 649,
+    "tokens_generated": 237,
+    "elapsed_s": 6.19,
+    "tg_tps": 63.04142140583434,
+    "pp_tps": 964.5724840306815,
+    "has_diff_format": true,
+    "files_gen": [
+      "colormap.py"
+    ],
+    "files_gold": [
+      "AxisItem.py",
+      "colormap.py",
+      "processes.py",
+      "remoteproxy.py"
+    ],
+    "file_overlap": [
+      "colormap.py"
+    ],
+    "file_recall": 0.25,
+    "line_overlap_count": 1,
+    "line_recall": 0.012,
+    "generated_preview": "diff --git a/pyqtgraph/colormap.py b/pyqtgraph/colormap.py\nindex 7d0e0a7..a3c0e0f 100644\n--- a/pyqtgraph/colormap.py\n+++ b/pyqtgraph/colormap.py\n@@ -1,6 +1,7 @@\n from __future__ import annotations\n \n import numpy as np\n+import re\n from collections import OrderedDict\n from functools import reduce\n from numbers import Number\n@@ -10,6 +11,7 @@ from . import functions as fn\n from .Qt import QtGui, QtC"
+  },
+  {
+    "instance_id": "pallets__werkzeug-2583",
+    "repo": "pallets/werkzeug",
+    "language": "python",
+    "prompt_chars": 4400,
+    "response_chars": 1366,
+    "tokens_generated": 424,
+    "elapsed_s": 7.76,
+    "tg_tps": 63.19657832261972,
+    "pp_tps": 1192.9110559702654,
+    "has_diff_format": true,
+    "files_gen": [
+      "converters.py"
+    ],
+    "files_gold": [
+      "CHANGES.rst",
+      "converters.py",
+      "rules.py",
+      "utils.py",
+      "utils.rst"
+    ],
+    "file_overlap": [
+      "converters.py"
+    ],
+    "file_recall": 0.2,
+    "line_overlap_count": 3,
+    "line_recall": 0.079,
+    "generated_preview": "diff --git a/src/werkzeug/routing/converters.py b/src/werkzeug/routing/converters.py\nindex 15d25a7c..8b8c8c8c 100644\n--- a/src/werkzeug/routing/converters.py\n+++ b/src/werkzeug/routing/converters.py\n@@ -1,6 +1,7 @@\n from __future__ import annotations\n \n import re\n+import typing as t\n from urllib.parse import quote, urlsplit, urlunsplit\n \n from .._internal import _missing\n@@ -10,6 +11,10 @@\n \n clas"
+  },
+  {
+    "instance_id": "pytest-dev__pyfakefs-916",
+    "repo": "pytest-dev/pyfakefs",
+    "language": "python",
+    "prompt_chars": 4579,
+    "response_chars": 517,
+    "tokens_generated": 164,
+    "elapsed_s": 3.84,
+    "tg_tps": 63.30697086952896,
+    "pp_tps": 1084.4434565456436,
+    "has_diff_format": true,
+    "files_gen": [
+      "fake_os.py"
+    ],
+    "files_gold": [
+      ".pre-commit-config.yaml",
+      "CHANGES.md",
+      "fake_scandir.py"
+    ],
+    "file_overlap": [],
+    "file_recall": 0.0,
+    "line_overlap_count": 0,
+    "line_recall": 0.0,
+    "generated_preview": "diff --git a/pyfakefs/fake_os.py b/pyfakefs/fake_os.py\nindex 1e7a0a5..b0c0a0e 100644\n--- a/pyfakefs/fake_os.py\n+++ b/pyfakefs/fake_os.py\n@@ -1006,7 +1006,7 @@ class FakeOsModule:\n             if not top:\n                 raise ValueError(f\"Invalid path: {top}\")\n             top = self.path.abspath(top)\n-            top = self.path.normcase(top)\n+            top = self.path.normcase(self.path.normp"
+  },
+  {
+    "instance_id": "cs-si__eodag-228",
+    "repo": "CS-SI/eodag",
+    "language": "python",
+    "prompt_chars": 6644,
+    "response_chars": 5609,
+    "tokens_generated": 1778,
+    "elapsed_s": 30.73,
+    "tg_tps": 62.59786637742556,
+    "pp_tps": 948.9158150868778,
+    "has_diff_format": true,
+    "files_gen": [
+      "config.py",
+      "core.py",
+      "download.py",
+      "end_to_end_base.py",
+      "metadata.py"
+    ],
+    "files_gold": [
+      "aws.py",
+      "product_types.yml",
+      "providers.yml",
+      "user_conf_template.yml"
+    ],
+    "file_overlap": [],
+    "file_recall": 0.0,
+    "line_overlap_count": 0,
+    "line_recall": 0.0,
+    "generated_preview": "diff --git a/eodag/config.py b/eodag/config.py\nindex 8f8c8c8c..12345678 100644\n--- a/eodag/config.py\n+++ b/eodag/config.py\n@@ -123,6 +123,15 @@ class SourceConfig:\n             \"search\": {\"type\": \"pysatapi\"},\n             \"download\": {\"type\": \"HTTPDownload\"},\n         },\n+        \"earth_search_cog\": {\n+            \"priority\": 0,\n+            \"search\": {\n+                \"type\": \"StacSearch\",\n+    "
+  }
+]
